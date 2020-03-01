@@ -1,0 +1,41 @@
+.location-item{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+}
+
+.form-child-locaion{
+    // width: 470px;
+    width: 47.5%;
+}
+
+.shape{
+    width: 20px;
+    height: 20px;
+    background-color: #e73a9e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .minus{
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+      margin-top: -2px;
+      // height: 50px;
+    }
+  }
+
+  .shape-minus{
+      bottom: -20px;
+  }
+
+  @media only screen and (max-width : 480px) {
+    .locations-container{
+      .location-item{
+        .form-child{
+          width: 41%;
+        }
+      }
+    }
+  }

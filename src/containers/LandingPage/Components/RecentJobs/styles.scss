@@ -1,0 +1,93 @@
+.recent-jobs-main-container {
+        position: relative;
+        height: 434px;
+        background:  rgba(216,216,216,0.1);        
+        border: solid 1px  rgba(151,151,151,0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 63px;
+        .recent-jobs-title-text {
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #353535;
+            padding-top: 32px;
+        }
+.recent-job-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 28px;  
+    width: 100%;
+        .recent-jobs-let-me-know-wrapper {
+            width: 35%;
+            .recent-jobs-let-me-know-title-text {
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #353535;
+                padding-bottom: 29px;              
+            }
+            .recent-jobs-let-me-know-paragraph {
+                width: 75%;
+                opacity: 0.84;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.43;
+                letter-spacing: normal;
+                color: #8591b0;
+                padding-bottom: 30px;
+            }
+            .landing-page-resume-search-field {
+                position: absolute;
+                top:41%;
+                right: 30%;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: white;
+            }
+        }
+        .recent-job-landing-page-card-button-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 45%;
+            .carousel * {
+                box-sizing: unset;
+                padding-left: 3px;
+            }
+            // .recent-job-landing-page-card-wrapper {
+            //     display: flex;
+            //     flex-direction: row;
+            //     justify-content: space-between;
+            // }
+            .landing-page-recent-job-buttons {
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                bottom: 24px;
+            }
+        }
+    } 
+    
+   
+    
+}
+

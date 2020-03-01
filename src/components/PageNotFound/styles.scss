@@ -1,0 +1,86 @@
+
+
+.not-found-page{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  //align-items: center;
+
+  .not-found-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .page-not-found-oops-text {
+      font-family: Roboto;
+      font-size: 70px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #999;
+    }
+    .page-not-found-404 {
+      font-family: Roboto;
+      font-size: 32px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    .page-not-found-description {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #f0582b !important;
+      padding-bottom: 20px;
+    }
+    .page-not-found-possible-reasons-title {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #212121;
+      padding-bottom: 10px;
+      
+  }
+    .page-not-found-possible-reasons {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #212121;
+      margin-left: 24px;
+     
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 415px) {
+  .not-found-text{
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .employer-forgot-password-model{
+    width: 90vw;
+  }
+
+}

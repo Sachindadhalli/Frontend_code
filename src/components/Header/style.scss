@@ -1,0 +1,399 @@
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 64px;
+  background-color: #2e2a43;
+  z-index: 8;
+  //overflow: hidden;
+}
+
+.oval {
+  width: 134px;
+  height: 64px;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.shenzyn-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./oval-2.png);
+  background-repeat: no-repeat;
+  width: 134px;
+  height: 64px;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  z-index: 9;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  /* STYLES GO HERE */
+  .oval {
+    width: 134px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  .shenzyn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./oval-2.png);
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 64px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    z-index: 9;
+  }
+}

@@ -1,0 +1,111 @@
+.subUserList {
+  table {
+    thead {
+      tr {
+        height: 35px !important;
+        background: #fafafa;
+        border-bottom: none !important;
+        th {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #757575;
+          border:none;
+          padding: none !important
+        }
+        .table-header-cell{
+          padding: 8px;
+        }
+        .dynamic-div{
+          height: 35px !important;
+          display: flex !important;
+          flex-direction: row !important;
+          align-items: center !important;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: black;
+          width: auto;
+          height: 55px;
+        }
+        .table-data-cell{
+          padding: 8px;
+        }
+        //.permission-data-cell{
+        //  width: auto;
+        //}
+        .reason-data-cell{
+          width: 164px;
+        }
+        .permission-count{
+          //width: 30px;
+          //height: 30px;
+
+          background-image: linear-gradient(136deg, #f0582b, #ec0586);
+          color:white;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          padding: 6px;
+          margin-left: 4px;
+          cursor: pointer;
+        }
+        .tooltip-content{
+          padding:8px 13px 10px 15px;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.86;
+          letter-spacing: normal;
+          color: #626366;
+        }
+        .dynamic-div{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          height: 63px;
+           td{
+             display: flex;
+             align-items: center
+           }
+        }
+      }
+    }
+  }
+}
+.delete-icon {
+  margin-left: 23px;
+}
+.pagination-input-box{
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  color: rgb(117, 117, 117);
+  font-size: 12px;
+  margin: 0 5px;
+  border: 1px solid rgb(238, 238, 238);
+  padding: 4px 0px;
+}

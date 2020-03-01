@@ -1,0 +1,68 @@
+.employee-home {
+  display: flex;
+  // width: 1366px;
+
+  .employer-home-right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+  }
+  .employer-home-right-container {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    max-height: 100vh;
+    background: #fafafa;
+
+    .home-right-wraper {
+      width: 100%;
+    }
+
+    .employer-home-details {
+      // height: 1755px;
+      padding: 40px 40px 40px 40px;
+    }
+
+    .employer-home-right-containers > div {
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+
+  }
+}
+.video-resume-header{
+  display: flex;
+  .video-resume-back-button{
+    width: 26px;
+    height: 18px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .video-resume-title-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -5px;
+    .video-resume-title-text{
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #656565;
+    }
+    .video-resume-title-description{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      margin-top: 10px;
+      letter-spacing: normal;
+      color: #e73a9e;
+    }
+  }
+}

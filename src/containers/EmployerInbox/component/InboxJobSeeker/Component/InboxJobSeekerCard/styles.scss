@@ -1,0 +1,173 @@
+.inbox-jobseeker-card{
+  //margin: 10px;
+    margin-bottom: calc(1.75vw);
+    width: 48.77%;
+    min-height: 479px;
+    background-color: white;
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    .inner-allignment{
+        padding: 30px;
+        .name-profile-alignments{
+            display: flex;
+            justify-content: space-between;
+            .Name {
+                width: 38px;
+                min-height: 16px;
+              }
+              .Profile-Match- {
+                width: 97px;
+                min-height: 16px;
+              }
+              .ellipse-name{
+                white-space: nowrap; 
+                overflow: hidden;
+                text-overflow: ellipsis; 
+              }
+              .inner-name {
+                width: 94px;
+                min-height: 19px;
+              }
+              .inner-profile{
+                width: 30px;
+                min-height: 19px;
+                font-size: 16px;
+                color: #2aa11d;
+                padding-top: 5px;
+
+              }
+              
+        }
+        .job-description-title {
+            width: 100%;
+            min-height: 16px;
+            padding-top: 30px;
+          }
+        .job-description-subtitle{
+            width: 100%;
+            min-height: 19px;
+        }
+        .rectangle-2 {
+            width: fit-content;
+            min-height: 30px;
+            border-radius: 15px;
+            background-color: #eeeeee;
+            .text {
+                font-size: 14px !important;
+                padding: 8px !important;
+                color: #757575 !important;
+              }
+          }
+          .exp-ctc-alignments{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+          }
+        
+          
+    }
+}
+.inbox-jobseeker-card-title{
+    font-size: 14px;
+    color:#656765;
+}
+.inbox-jobseeker-card-subtitle{
+    font-size: 16px;
+    color: #212121;
+    padding-top: 5px;
+}
+.top-padding-10{
+    padding-top: 10px;
+}
+.flex-wrap-chips{
+  display: flex;
+  flex-wrap: wrap
+}
+.right-bottom-padding-10{
+  padding-right:10px;
+  padding-bottom:10px
+}
+
+//ipad pro
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .inbox-jobseeker-card{
+    width: 99%;
+  }
+}
+//ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .inbox-jobseeker-card{
+    width: 99%;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .inbox-jobseeker-card{
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .inbox-jobseeker-card{
+    margin: 10px 0px;
+  }
+  .name-profile-alignments{
+    flex-direction: column;
+  }
+  .inbox-jobseeker-card .inner-allignment {
+    padding: 20px;
+  }
+  .inbox-jobseeker-card .inner-allignment .name-profile-alignments .inner-name{
+    width: 230px;
+  }
+}
+/*  Pixel 2 XL Portrait */
+@media screen and (device-width: 412px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: portrait) {
+  .inbox-jobseeker-card{
+    margin: 10px 0px;
+  }
+  .name-profile-alignments{
+    flex-direction: column;
+  }
+  .inbox-jobseeker-card .inner-allignment {
+    padding: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 620px) {
+  .inbox-jobseeker-card{
+    margin: 10px 0px;
+    &:first-child{
+      margin-top: 20px;
+    }
+  }
+  .name-profile-alignments{
+    //flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .inbox-jobseeker-card .inner-allignment {
+    padding: 20px;
+  }
+  .mobile-view-align{
+    padding-bottom: 30px;
+  }
+  .exp-ctc-alignments{
+    flex-wrap: wrap;
+  }
+  .inbox-jobseeker-card .inner-allignment .name-profile-alignments .inner-name{
+    width: 230px;
+  }
+
+}

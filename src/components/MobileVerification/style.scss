@@ -1,0 +1,237 @@
+.mobile-sign-in-email-model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    // width: 561px;
+    // height: 382px;
+    background-color: white;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    .email-modal-close {
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        padding-right: 40px;
+        padding-top: 40px;
+
+        .close {
+            cursor: pointer;
+            width: 23px;
+            height: 23px;
+            object-fit: contain;
+        }
+    }
+
+    .form-child {
+        width: 210px;
+        height: 29px;
+        object-fit: contain;
+    }
+
+    .Forgot-Password {
+        width: 184px;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+        padding-bottom: 20px;
+    }
+
+
+    .OTP-will-be-sent-to {
+        width: 215px;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #757575;
+    }
+
+    .forgot-password-email{
+        display: flex;
+        
+    }
+
+    .email-modal-close {
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        padding-right: 40px;
+
+        .close {
+            cursor: pointer;
+            width: 23px;
+            height: 23px;
+            object-fit: contain;
+        }
+    }
+
+    .Enter-OTP {
+        width: 109px;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #656565;
+    }
+
+
+    .OTP-has-been-sent-to {
+        height: 32px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #757575;
+    }
+
+    .did-not-received{
+        display: flex;
+        align-items: center;
+
+        .You-will-receive-a-c {
+            // width: 271px;
+            //height: 14px;
+            font-family: Roboto;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #757575;
+            display: flex;
+        }
+
+        .form-child {
+            width: 210px;
+            height: 29px;
+            object-fit: contain;
+        }
+
+        .Resend{
+            width: 50px;
+            font-family: Roboto;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            cursor: pointer;
+            background: transparent;
+            border:none
+        }
+    }
+
+    .input-otp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+
+        input{
+            text-align: center;
+        }
+    }
+
+    #input_one{
+        text-align: center;
+    }
+    .submit-button{
+        font-family: Roboto !important;
+        margin: 20px !important;
+        padding: 0 !important;
+        width: 132px !important;
+        height: 38px !important;
+        border-radius: 19px !important;
+        background-image: linear-gradient(107deg, #f0582b, #ec0586);
+        border: none !important;
+        color: white !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        cursor: pointer !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    .verify-text {
+        cursor: pointer;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e73a9e;
+      }
+      .button-textfield {
+          display: flex;
+          flex-direction: row;
+          }
+      .verify-text-disabled-button {
+        cursor: not-allowed;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+    }
+    .disable-button{
+        font-family: Roboto !important;
+        margin: 20px !important;
+        padding: 0 !important;
+        width: 132px !important;
+        height: 38px !important;
+        border-radius: 19px !important;
+        background-image: none !important;
+        border: none !important;
+        color: white !important;
+        pointer-events:none !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: #656565 !important;
+        opacity: 0.4;
+    }
+    .hide-fields{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

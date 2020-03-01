@@ -1,0 +1,52 @@
+.dialog-questions-perview{
+    display: flex;
+    flex-direction: column;
+    .dialog-question-name{
+        //height: 16px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color:#656565;
+        margin-top: 35px;
+    }
+    .dialog-option-container-div{
+        display: grid;
+        grid-template-columns: 25% 25%;  
+    }
+    .dialog-option-content{
+        height: 19px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color:#212121;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+//<<<<<<<<<<<<<<<<<<===============================>>>>>>>>>>>>>>>>>.
+@media (max-width: 480px) {
+     
+        .dialog-questions-perview .dialog-option-container-div {
+            display: grid;
+            grid-template-columns: 100%;  
+        }
+    
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    .dialog-questions-perview .dialog-option-container-div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}

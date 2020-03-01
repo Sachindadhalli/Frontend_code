@@ -1,0 +1,39 @@
+.label-value-body{
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  .label-value-wrapper{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    .label-styles{
+      font-size: 14px;
+      color: #656565;
+    }
+    .value-styles{
+      padding-top: 5px;
+      font-size: 16px;
+      color: #212121;
+      word-break: break-word;
+    }
+    .value-styles1{
+      padding-top: 21px;
+      font-size: 16px;
+      color: #212121;
+      word-break: break-word;
+    }
+    .value-styles2{
+      padding-top: 0px;
+      font-size: 16px;
+      color: #212121;
+      word-break: break-word;
+    }
+    .value-styles1{
+      padding-top: 21px;
+      font-size: 16px;
+      color: #212121;
+    }
+  }
+}

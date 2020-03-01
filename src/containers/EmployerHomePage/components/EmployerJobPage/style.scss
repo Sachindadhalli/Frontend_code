@@ -1,0 +1,130 @@
+.employer-job-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    //overflow-y: auto;
+    .section{
+        // padding:40px 46px 45px 46px;
+        border-bottom:  2px solid #fafafa;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            .title{
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                flex:4;
+            }
+            .actions{
+                display: flex;
+                justify-content: flex-end;
+                flex:1;
+                .save{
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #e73a9e;
+                    cursor: pointer;
+                }
+                .disard-changes{
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #757575;
+                    cursor: pointer;
+                }
+            }
+        }
+        .body{
+            // @media screen and (max-width: 800px){
+            //     .row{
+            //         display: flex;
+            //         flex-direction: column;
+            //         justify-content: space-between;
+            //         align-items:  normal;
+            //          .column{
+            //              width:96%;
+            //              margin-bottom: 30px;
+            //          }
+            //     }
+            // }
+           .row{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               align-items:  normal;
+               flex-wrap: wrap;
+               margin-bottom: 0px;
+                .column{
+                    width:100%;
+                    margin-bottom: 30px;
+                }
+           }
+           @media screen and (min-width: 800px) {
+            .row{
+                .column {
+                    width: 48%;
+                  }
+            }
+        }
+        }
+    }
+    .employer-job-page-customize-url {
+        display: flex;
+        align-items: center;
+        padding: 28px 0px 18px 44px;
+        overflow: auto;
+      
+        .employer-job-page-customize-url-in-text {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #212121;
+            padding-right: 10px;
+        }
+        .employer-job-page-customize-url-btn {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            cursor: pointer;
+        }
+    }
+    .employer-job-page-customize-url-line {
+        height: 1px;
+        opacity: 0.15;
+        border: solid 0.5px #dbdbdb;
+        width: 100%;
+    }
+}
+
+
+.disabled-view{
+    opacity: 0.4;
+    pointer-events: none;
+}

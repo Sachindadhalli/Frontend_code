@@ -1,0 +1,62 @@
+.search-type-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+  padding-top: 29px;
+  padding-right: 45px;
+  padding-bottom: 29px;
+  background-color: white;
+  margin-top: 20px;
+  .search-type-radio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .search-advance-radio {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .advance-button {
+      padding-left: 40px;
+    }
+  }
+  .search-type-fields-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 41px;
+    padding-bottom: 45px;
+    width: 100%;
+    align-items: flex-start;
+
+    .search-type-skill-multiselect {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 59%;
+      .search-type-skills {
+        width: 367px;
+        padding-right: 36px;
+      }
+      .search-type-location {
+        width: 225px;
+      }
+    }
+    .search-type-textfields {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 5px;
+      // margin-right: 10px;
+      // overflow: hidden;
+      .search-type-req-experience {
+        width: 170px;
+        overflow: hidden;
+      }
+      .search-type-salary {
+        width: 170px;
+      }
+    }
+  }
+}

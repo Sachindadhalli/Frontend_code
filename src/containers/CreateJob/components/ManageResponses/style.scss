@@ -1,0 +1,298 @@
+@import '../../../../styles/Variable.scss';
+
+.manage-responses{
+    box-sizing: border-box;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 22px;
+    padding-bottom: 50px;
+    background: $backgroundColor;
+    margin-left: $outerMargin;
+    margin-right: $outerMargin;
+    .hidden-field {
+      display: none;
+      visibility: hidden;
+    }
+  .next-manage-response-details{
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+    .left-half{
+        width: $half;
+        margin-right: $marginRight;
+    }
+    .email-or-walking-radio{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-left: 12px;
+      margin-top: -10px;
+      color:#212121;
+    }
+    .add-create-button{
+        border-radius: 19px;
+        border: solid 1px #e73a9e;
+        object-fit: contain;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #e73a9e;
+        box-sizing: border-box;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+  .add-create-button-add-mail{
+    border-radius: 19px;
+    border: solid 1px #e73a9e;
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e73a9e;
+    box-sizing: border-box;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: -38px;
+  }
+  .add-create-button-add-mail:hover{
+    color: #ffffff;
+    font-family: Roboto;
+    background-image: linear-gradient(107deg, #f0582b, #ec0586);
+  }
+
+    .manage-all-responses {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+      }
+      .manage-all-responses-text{
+        margin-bottom: 35px;
+        color:#212121;
+      }
+      .forward-application{
+        color:#212121;
+      }
+
+      .receive-responses {
+          display: flex;
+          flex-direction: column;
+           color:#212121;
+        margin-top: -9px;
+
+          .receive-responses-on{
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color:#212121;
+          }
+            .radio-item{
+                margin-right: 13.2%;
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color:#212121!important;
+            }
+      }
+
+      .email-div, .questionnaire{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color:#212121;
+      }
+
+
+      .email-div{
+        margin-top: 8px;
+        color:#212121;
+        // margin-bottom: 35px;
+        .select-email{
+          height: 16px;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color:#656565;
+        }
+      }
+
+      .questionnaire{
+          .create-qustionnaire-text{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #212121;
+          }
+      }
+
+      .walk-in-date{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+        margin-top: 24px;
+        margin-bottom: 10px;
+      }
+      .date-and-time{
+          display: flex;
+          //justify-content: space-between;
+      }
+
+      .one-forth{
+          width: $oneForth;
+      }
+
+      .third-forth{
+          width: 70%;
+        padding: 4px 0px 0px 0px;
+      }
+
+      .half{
+        width: 46%;
+      }
+      .marginright{
+        margin-right: 4.3%;
+      }
+
+      .search-on-google-map{
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #e73a9e;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .create-custom-question-text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: black;
+        // margin-bottom: 20px;
+      }
+
+      .label-text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: black;
+      }
+      .reference-code{
+        margin-top: 39px;
+        padding: 5px 0px 0px 0px;
+      }
+
+      .venue-margin{
+        margin-top: 35px;
+        margin-bottom: 18px;
+
+      }
+  .venue-margin> div>div>div>textarea::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+  }
+  .search-placeholder-walkin{
+
+  }
+  .search-placeholder-walkin>div>input::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+      .walk-in-date-time{
+        display: flex;
+        .walk-in-dates-times{
+          width: 50%;
+        }
+      }
+      .walk-in-date-time > div{
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+
+
+@media only screen and (max-width : 480px) {
+  .manage-responses{
+    padding: 32px 8px 48px;
+
+    .manage-all-responses-text{
+      margin-bottom: 16px
+    }
+
+    .third-forth{
+      width: 100%;
+    }
+    .left-half{
+      width: 100%;
+    }
+    .email-div{
+      flex-direction: column;
+      align-items: center;
+      margin-top: -12px;
+    }
+    .email-div > div{
+      margin-top: 10px;
+      // align-items: center;
+
+    }
+    .reference-code{
+      margin-top: 16px;
+    }
+  }
+  .half{
+    width: 100%;
+  }
+  .walk-in-date-time{
+    flex-direction: column;
+    .walk-in-dates-times{
+      width: 100%;
+    }
+  }
+}

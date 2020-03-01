@@ -1,0 +1,25 @@
+
+.specialization {
+  $half: 47.5%;
+  .half_form_specialisation {
+    width: $half;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .specialization {
+    .half_form_specialisation {
+      width: 100%;
+    }
+  }
+
+}
+
+.select-dropdown-custom-icon {
+  position: absolute;
+  height: 17px;
+  width: 14px;
+  right: 8px;
+  bottom: 6px;
+  cursor: pointer;
+}

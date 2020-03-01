@@ -1,0 +1,6 @@
+const employerLoginConstants = {
+  EMPLOYER_LOGIN_REQUEST: 'EMPLOYER_LOGIN_REQUEST',
+  EMPLOYER_LOGIN_SUCCESS: 'EMPLOYER_LOGIN_SUCCESS',
+  EMPLOYER_LOGIN_ERROR: 'EMPLOYER_LOGIN_ERROR',
+}
+export default employerLoginConstants;

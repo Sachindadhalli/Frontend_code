@@ -1,0 +1,345 @@
+.job-application-component-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .job-application-component-view-less-part {
+
+    padding-top: 31px;
+    padding-left: 41px;
+    padding-right: 29px;
+  .job-application-component-heading-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .job-application-component-job-heading {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+        text-transform: capitalize;
+        padding-bottom: 15px;
+        //padding-right: 191px;
+        
+    
+    }
+    .job-application-component-company-applied-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+
+    .job-application-component-company-image-div {
+      display: flex;
+      flex-direction: row;
+      //padding-right: 268px;
+
+      .job-application-component-company-name {
+        padding-left: 10px;
+        padding-top: 3px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: right;
+        color: #212121;
+        padding-bottom: 19px;
+
+      }  
+    }
+    .job-application-date-of-applied {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      text-align: right;
+      color: #212121;
+      padding-bottom: 21px;
+      padding-top: 5px;
+
+
+    }
+  }
+    }
+    
+    .job-application-componenting-location-review-view-more {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 30px;
+
+      .job-application-component-location-review{
+        display: flex;
+        flex-direction: row;
+        //justify-content: space-between;
+        width: 80%;
+        .job-application-component-location-img {
+          display: flex;
+          flex-direction: row;
+          //padding-right: 385px;
+          width: 65%;
+        }
+        .job-application-component-location {
+          padding-left: 10px;
+          padding-top: 2px;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          text-align: right;
+          color: #212121;
+          padding-right: 30px;
+        }
+        .job-application-component-review {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          text-align: right;
+          color: #212121;
+        } 
+      }
+        .job-application-component-view-less-more {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #e73a9e;
+          padding-right: 27px;
+          cursor: pointer;
+        }
+        .review-later-tool-tip {
+          display: flex;
+          flex-direction: row;
+        }
+    }
+  } 
+  .job-application-component-view-more-part { 
+
+        padding-bottom: 30px;
+        padding-left: 41px;
+        padding-right: 29px;
+    .job-application-component-recruiting-name-company {
+      display: flex;
+      flex-direction: row;
+      //justify-content: space-between;
+      padding-top: 30px;
+
+        .job-application-component-recruiter-name-div {
+          display: flex;
+          flex-direction: row;
+          width: 62%;
+
+          .job-application-component-recruiter-name-heading {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #757575;
+          
+          }
+          .job-application-component-recruiter-name {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            color: #212121;
+            padding-left: 5px;
+            padding-right: 75px;
+          }
+        }
+
+        .job-application-component-recruiting-company-div {
+          display: flex;
+          flex-direction: row;
+
+          .job-application-component-recruiting-company-heading {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+          
+          }
+          .job-application-component-recruiting-company {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            color: #212121;
+            padding-left: 5px;
+          }
+        }
+    }
+
+    .job-application-component-view-more-count-send-message {
+      display: flex;
+      flex-direction: row;
+      //justify-content: space-between;
+
+      .job-application-component-view-more-count {
+        display: flex;
+        flex-direction: row;
+        padding-top: 42px;
+        width: 62%;
+
+        .job-application-component-view-count-heading {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #757575;
+        }
+        .job-application-component-count {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+          color: #212121;
+          padding-left: 5px;
+        }
+      }
+    }
+    .job-application-component-button {
+      padding-top: 31px;
+      padding-right: 135px; 
+      padding-bottom: 30px;
+    }
+  }
+  .job-application-component-line {
+    border: solid 0.7px #e0e0e0;
+    width: 100%;    
+  }
+}
+
+//<<<<<<<<<<<<<<<<<<<====================================>>>>>>>>>>>>>>>>>>>>>>>>>
+
+@media (max-width: 1024px) {
+
+.job-application-component-main-container .job-application-component-view-less-part .job-application-component-heading-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-component-heading-div .job-application-component-job-heading {
+  padding-right: 0px;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-component-heading-div .job-application-component-company-applied-div{
+  width: 100%;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-component-heading-div .job-application-component-company-applied-div .job-application-component-company-image-div {
+  padding-right: 30px;
+}
+  .job-application-component-main-container .job-application-component-view-less-part .job-application-component-heading-div .job-application-component-company-applied-div .job-application-component-company-image-div .job-application-component-company-name{
+    text-align: left;
+  }
+.job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+// .job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review .job-application-component-location-img {
+//   padding-right: 30px;
+// }
+.job-application-component-main-container .job-application-component-view-more-part .job-application-component-recruiting-name-company {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.job-application-component-main-container .job-application-component-view-more-part .job-application-component-view-more-count-send-message {
+  display: flex;
+  flex-direction: column;
+}
+.job-application-component-main-container .job-application-component-view-more-part .job-application-component-view-more-count-send-message .job-application-component-view-more-count .job-application-component-count {
+  padding-left: 5px;
+}
+.job-application-component-main-container .job-application-component-view-more-part .job-application-component-view-more-count-send-message .job-application-component-view-more-count {
+  padding-top: 20px;
+  width: 100%;
+}
+.job-application-component-main-container .job-application-component-view-more-part .job-application-component-recruiting-name-company .job-application-component-recruiter-name-div {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-view-less-more {
+  //padding-left: 392px;
+  //padding-right: 0px;
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+  padding-right: 4px;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review {
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 614px) {
+  .job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review .job-application-component-location-img {
+    width: auto;
+  }
+  .job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review {
+    width: 100%;
+  }
+  .job-application-component-main-container .job-application-component-view-less-part .job-application-componenting-location-review-view-more .job-application-component-location-review .job-application-component-location {
+    padding-right: auto;
+    text-align: left;
+  }
+}
+

@@ -1,0 +1,127 @@
+.picky-dropdown-wrapper .picky__input {
+  border: none;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.picky-dropdown-wrapper .picky__input:focus {
+  border-bottom: 2px solid black;
+}
+
+.picky-dropdown-wrapper-error .picky__input {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.picky-dropdown-wrapper .picky__input:focus {
+  outline: none;
+}
+
+.picky-dropdown-wrapper .picky__input::after{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: none;
+  content: url('https://dev-api.shenzyn.com/pinkjob/media/documnets/2019/04/04/26/19/dropdown.svg');
+  right: 16px;
+  top: 8px;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option input{
+  display: inline-block;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .selected{
+  height: inherit;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option{
+  padding: 12px 8px;
+  font-family: Roboto;
+  font-weight: normal;
+  color: #212121;
+}
+
+.picky-dropdown-wrapper .picky__dropdown{
+  overflow-y: unset !important;
+}
+.picky-dropdown-wrapper .picky__dropdown .option:focus, .picky__dropdown li:focus{
+  outline: 1px solid #ec0586 !important;
+}
+
+.picky-dropdown-wrapper .picky__dropdown div:nth-child(3){
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .picky__filter .picky__filter__input::-webkit-input-placeholder {
+  color: #d3d3d3;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: normal;
+  padding-left: 4px;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:not(:checked),
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked {
+  position: absolute;
+  left: 0;
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked {
+  margin-top: 1px;
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:not(:checked),
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked {
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:not(:checked):before{
+  content: '';
+  position: absolute;
+  left: -4px; top: -2px;
+  width: 14px; height: 14px;
+  border: 1px solid #d3d3d3;
+  background: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked:before {
+  content: '';
+  position: absolute;
+  left: -5px; top: -2px;
+  width: 14px; height: 14px;
+  border: 1px solid #ec0586;
+  background: #ec0586;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+/* checked mark aspect */
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:not(:checked):after,
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked:after {
+  content: '\2713\0020';
+  position: absolute;
+  top: 0; left: -4px;
+  font-size: 20px;
+  line-height: 0.8;
+  color: white;
+  transition: all .2s;
+  font-family: Roboto;
+  font-weight: 700;
+}
+/* checked mark aspect changes */
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:not(:checked):after {
+  opacity: 0;
+  transform: scale(0);
+}
+.picky-dropdown-wrapper .picky__dropdown .option input[type="checkbox"]:checked:after {
+  opacity: 1;
+  transform: scale(1);
+}

@@ -1,0 +1,56 @@
+@import '../../../../styles/Variable.scss';
+.my-document-video-upload {
+  box-sizing: border-box;
+  background: $backgroundColor;
+  margin-left: $outerMargin;
+  margin-right: $outerMargin;
+
+  .my-document-video-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 40px;
+    margin: 21px 80px 40px 46px;
+    padding-top: 30px;
+  }
+  .form-hr-line{
+    height: 1px;
+    opacity: 0.4;
+    border: solid 1px #dbdbdb;
+  }
+  .next-documnet-upload{
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+}
+@media screen and (min-device-width:770px)and(max-device-width: 1024px) {
+  .my-document-video-container{
+
+    grid-template-columns: auto !important;
+    grid-row-gap: 40px!important;
+    margin: 21px 40px 40px 46px!important;
+  }
+}
+
+
+@media screen and (min-device-width:320px)and(max-device-width: 770px) {
+  .my-document-video-container{
+
+    grid-template-columns:auto!important;
+    grid-row-gap: 40px !important;
+    margin: 21px 40px 40px 46px!important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .my-document-video-container{
+
+    grid-template-columns:auto!important;
+    grid-row-gap: 40px !important;
+    margin: 21px 40px 40px 46px!important;
+  }
+}
+
+

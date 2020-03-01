@@ -1,0 +1,46 @@
+.personal-details-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    .profile-pic-wrapper{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .preview-edit{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 75px;
+            height: 75px;
+            border-radius: 37.5px;
+        }
+    }
+        .first, .second, .third{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .first>div{
+            width: 50%;
+        }
+        .second>div{
+            width: 50%;
+        }
+        .third>div{
+            width: 50%;
+        }
+        .row-padding{
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+}

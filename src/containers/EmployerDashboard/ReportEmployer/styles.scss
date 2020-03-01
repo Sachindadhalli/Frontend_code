@@ -1,0 +1,39 @@
+.report-employer-page{
+  display: flex;
+  height: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  .report-employer-auto-overflow{
+    height: auto;
+    .report-employer-border-padding{
+      padding: 30px 40px;
+      .head-text-padding{
+        padding-left: 46px;
+      }
+      .report-employer-text{
+        font-size: 24px;
+        font-weight: 500;
+        color: #656565;
+        padding-bottom: 15px;
+      }
+    }
+    .report-employer-right-container{
+      .report-employer-component-container{
+        padding-bottom: 20px;
+      }
+      .report-employer-component-container-2{
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+    }
+  }
+}
+.scrollable-element {
+  scrollbar-width: thin;
+}

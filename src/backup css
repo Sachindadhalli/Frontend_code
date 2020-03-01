@@ -1,0 +1,41 @@
+
+
+import customisedMaterial from '../../styles/customisedMaterial';
+
+
+  classes={{
+                    root: classes.cssLabel,
+                    focused: classes.cssFocused,
+                  }}
+
+
+classes={{
+                      underline: classes.cssUnderline,
+                      focused: classes.cssFocused,
+                    }}
+
+      
+.Rectangle-12-Copy {
+  width: 436px;
+  height: 1px;
+  border-radius: 0.5px;
+  background-color: #e0e0e0;
+}
+
+
+cssLabel: {
+    '&$cssFocused': {
+      color: '#757575',
+    },
+  },
+  cssFocused: {
+    
+  },
+  cssUnderline: {
+    '&:after': {
+      borderBottomColor: '#757575',
+    },
+    '&:hover:not($disabled):before': {
+      borderBottomColor: '#757575 !important',
+    }
+  },

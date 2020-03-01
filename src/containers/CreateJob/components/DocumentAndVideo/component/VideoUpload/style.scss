@@ -1,0 +1,51 @@
+.my-video-upload{
+
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  padding: 21px 31px 18px 30px;
+
+  .video-header-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .video-header{
+    display: flex;
+    align-items: center;
+
+    .video-name{
+      height: 24px;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color:#656565;
+
+    }
+  }
+  .view-delete-container{
+    display: flex;
+    justify-content: flex-end;
+    .view{
+      margin-right: 12px;
+    }
+  }
+
+
+}
+.video-dialog-container{
+  position: relative;
+  padding: 0 !important;
+  .video-dialog-close{
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    right: 8px;
+    z-index: 9;
+    cursor: pointer;
+  }
+}

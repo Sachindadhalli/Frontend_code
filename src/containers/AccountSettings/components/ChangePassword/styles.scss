@@ -1,0 +1,70 @@
+.change-password-field-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .change-password-field-text-password-save {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .change-password-field-text-password {
+            margin-top: 26px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color:  #656565;
+        }
+      .change-password-buttons-wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-top: 26px;
+        .discard-changes-btn{
+          cursor: pointer;
+          font-size: 14px;
+          margin-right: 16px;
+          color: #656565;
+        }
+        .change-password-field-text-save {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #e73a9e;
+          cursor: pointer;
+        }
+      }
+    }
+    .change-password-field-input-textfields {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .change-password-field-current-password {
+            margin-top: 27px;
+            width: 100%;
+          div:first-child{
+            width: 100%;
+          }
+        }
+        .change-password-field-new-password{
+            margin-top: 10px;
+            width: 100%;
+          div:first-child{
+            width: 100%;
+          }
+        }
+        .change-password-field-confirm-password {
+            margin-top: 10px;
+            width: 100%;
+          div:first-child{
+            width: 100%;
+          }
+        }
+     }
+
+}

@@ -1,0 +1,78 @@
+.view-personal-details-main-wrapper {
+  padding: 8px 30px 16px 30px;
+  .view-personal-details-inner-wrapper {
+
+  }
+}
+
+.edit-personal-details-main-wrapper {
+  padding: 8px 30px 16px 30px;
+  font-family: Roboto;
+  .date-label-name {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #656565;
+  }
+  .field-label-name {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #757575;
+  }
+  .date-label-margin {
+    margin-bottom: -13px;
+  }
+  .max-limit-number-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 8px;
+    font-size: 12.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    .maximum-character-limit {
+      color: #a4a4a4;
+    }
+    .count {
+      padding-left: 2px;
+      font-weight: 500;
+      color: #f0582b;
+    }
+  }
+  .language-main-wrapper {
+    width: 100%;
+    .language-proficiency-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #656565;
+      .language-container {
+        width: 47%;
+        display: flex;
+        .add-icon {
+          margin-left: 12px;
+        }
+      }
+      .proficiency-container {
+        width: 47%
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+@import '../../../../../../styles/Variable.scss';
+.my-organisations{
+    box-sizing: border-box;
+    padding: 17px 45px 0px 46px;
+    background: $backgroundColor;
+    display: flex;
+    flex-direction: column;
+    
+ 
+   
+    .grid-container{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+
+
+    .grid-item{
+        
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #e0e0e0;
+        padding-bottom: 27px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+
+    }
+    .save-btn{
+        text-align: center;
+        margin-top:20px;
+        margin-left: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+}
+.my-organisation-container{
+    display: flex;
+    flex-direction: column;
+  //margin-bottom: 30px;
+    .add-organisation{
+        margin-right: 39px;
+        margin-bottom: 30px;
+        display:flex;
+        float:right;
+    }
+  .data-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+}
+.no-organisation-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    height: 380px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#656565;
+
+    
+    .add-organisation{
+        margin-top: 40px;
+    }
+   
+}
+.pagination-style{
+    margin-top: -20px;
+    float: right;
+  .my-organisation-pagination-wrapper{
+    td{
+      border-bottom: none;
+    }
+  }
+}
+.my-organisation-hr{
+  background: $backgroundColor;
+  margin-bottom: 30px;
+  //opacity: 0.4;
+
+  .hr-class-organisation{
+    border: solid 1px rgba(219, 219, 219, 0.4);
+  }
+  .save-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .next-button{
+      margin-bottom: 21px;
+      margin-top: 26px;
+    }
+  }
+}
+@media screen and (min-device-width:320px)and(max-device-width: 770px) {
+    .my-organisations{
+        box-sizing: border-box;
+        padding: 17px 25px 0px 25px;
+        background: $backgroundColor;
+        //margin-left: $outerMargin;
+        //margin-right: $outerMargin;
+        display: flex;
+        flex-direction: column;
+        
+     
+       
+        .grid-container{
+            display:grid;
+            grid-template-columns: auto;
+    
+        }
+    
+        .grid-item{
+            
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            padding-bottom: 57px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-bottom: 30px;
+    
+        }
+   
+  }
+  .pagination-style{
+    margin-top: -20px;
+  }
+}

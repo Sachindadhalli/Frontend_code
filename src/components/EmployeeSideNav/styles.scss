@@ -1,0 +1,90 @@
+.logout-profile-icon{
+    margin-left: auto !important;
+    width: 45px;
+    height: 45px;
+    border-radius: 35px
+  }
+  .profile-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+  }
+  .logout-drop-down{
+    margin-left: 12px;
+  }
+  .logout-wrapper{
+    padding-top:12px;
+    padding-bottom:12px;  
+  }
+  .logout{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #f22a7c;
+    padding:0px 12px 0px 12px;
+    cursor: pointer;
+  }
+  .logout:hover{
+      background: #f1f1f1;
+  }
+
+
+
+
+
+.setting-popup{
+  .side-dropdown-wrapper{
+    display: none;
+  }
+  &:hover{
+    .side-dropdown-wrapper{
+      display: block;
+    }
+  }
+}
+
+.side-dropdown-wrapper{
+  background-color: #000000;
+  position: fixed;
+  left: 145px;
+  min-width: 168px;
+  text-align: center;
+  border-radius: 0px 4px 4px 0px;
+  .sub-user-settings-list-item{
+    padding: 15px ;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+  .sub-user-settings-list-item:last-child{
+    padding: 15px 15px 15px 16px ;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+  .account-settings-list-item{
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+  .account-settings-list-item:last-child{
+    padding: 16px 16px 16px 16px ;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+}

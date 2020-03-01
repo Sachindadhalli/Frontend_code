@@ -1,0 +1,29 @@
+.success-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-direction: column;
+}
+
+.success-page{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column
+    //align-items: center;
+}
+
+
+
+@media only screen and (max-width: 415px) {
+    .success-text{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .employer-forgot-password-model{
+        width: 90vw;
+    }
+
+}

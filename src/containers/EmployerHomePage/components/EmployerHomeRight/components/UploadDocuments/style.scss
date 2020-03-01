@@ -1,0 +1,107 @@
+.dialog-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    .shenzyn-dialog-box {
+        max-width: 640px;
+        background: #fff;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        .header {
+            flex: 0 0 auto;
+            display: flex;
+            flex-direction: column;
+            font-family: Roboto;
+            .close-icon{
+                float: right;
+                height: 20px;
+                width: 20px;
+            }
+            .title-wrapper{
+                float: left;
+                .title{
+                    color: #656565;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                }
+                .hint-title{
+                    color: #757575;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                }
+            }
+        }
+        .body {
+            flex:1;
+            overflow: auto;
+            .item {
+                .title{
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #212121;
+                    margin-bottom: 6px;
+                }
+                .value {
+                    .hidden {
+                        display: none;
+                        visibility: hidden;
+                    }
+                    label {
+                        a {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            flex: 0 0 auto;
+            .action-btn-wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.file-chip-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    border-radius: 19px;
+    border: solid 1px #a4a4a4;
+    .file-chip{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;
+    }
+    .delete-icon{
+        cursor: pointer;
+    }
+}

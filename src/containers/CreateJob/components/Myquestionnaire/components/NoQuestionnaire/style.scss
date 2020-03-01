@@ -1,0 +1,43 @@
+@import '../../../../../../styles/Variable.scss';
+.my-no-questionnaire{
+        box-sizing: border-box;
+        padding-left: 46px;
+        padding-right: 45px;
+        padding-top: 17px;
+        padding-bottom: 40px;
+        background: $backgroundColor;
+        margin-left: $outerMargin;
+        margin-right: $outerMargin;
+        display: flex;
+        flex-direction: column;
+        height: 480px;
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width:100%;
+            text-align:center;
+            align-items: center;
+            margin:auto;
+         }
+        .heading{
+            margin-bottom: 40px;
+            height: 24px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color:#656565
+        }
+        .button-add-questionary{
+            margin-bottom: 40px;
+        } 
+        .button-skip-questionary{
+            align-items: center
+        }
+        
+        
+}

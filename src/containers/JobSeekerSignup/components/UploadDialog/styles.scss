@@ -1,0 +1,132 @@
+.upload-option{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background: white;
+    width:338px;
+    height:269px;
+    .file{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left:24px;
+    }
+    .video{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left:24px;
+    }
+    .upload-close{
+        text-align: end
+    }
+    .upload-body{
+        padding-left:41px;
+        padding-right:41px
+    }
+    .upload-title{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #656565;
+        padding-bottom: 9px;
+    }
+    .file-name{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color:#a4a4a4
+    }
+}
+.dialog-title{
+    padding-left:61px !important;
+    padding-right:61px !important;
+}
+// .dotted-dash{
+//     width: 100%; 
+//     height: 20px; 
+//     border-bottom: 1px solid black; 
+//     text-align: center;
+//     .dotted-dash-span{
+//         font-family: Roboto;
+//         font-size: 16px;
+//         font-weight: normal;
+//         font-style: normal;
+//         font-stretch: normal;
+//         line-height: normal;
+//         letter-spacing: normal;
+//         color: #757575;
+//         padding: 0 10px;
+//     }
+// }
+
+.dotted-dash{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.dotted-dash > span {
+    position: relative;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #757575;
+    padding: 0 10px;
+}
+
+.dotted-dash > span:before,
+.dotted-dash > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: red;
+}
+
+.dotted-dash > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.dotted-dash > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.upload-dialog-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.dashes:after{content:"- - - - - - - - - - - - - -";padding-left:16px;letter-spacing:-1px;color:gray;}
+span.dashes:before{content:"- - - - - - - - - - - -";padding-left:21px;padding-right:16px;letter-spacing:-1px;color:gray;}
+span.dashes{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #757575;  }

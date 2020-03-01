@@ -1,0 +1,130 @@
+.search-type-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+  padding-top: 16px;
+  padding-right: 46px;
+  padding-bottom: 30px;
+  background-color: white;
+  margin-top: 20px;
+  .search-type-radio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .search-advance-radio {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .advance-button {
+      padding-left: 40px;
+    }
+  }
+  .search-type-fields-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-bottom: 45px;
+    width: 100%;
+    align-items: flex-start;
+
+    .search-type-skill-multiselect {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 70%;
+      .search-type-skills {
+        width: 56%;
+        padding-right: 18px;
+      }
+      .search-type-location {
+        width: 44%;
+        padding-left: 18px;
+      }
+    }
+    .search-type-textfields {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 30%;
+      // margin-right: 10px;
+      // overflow: hidden;
+      .search-type-req-experience {
+        width: 44%;
+        overflow: hidden;
+      }
+      .search-type-salary {
+        width: 40%;
+      }
+    }
+  }
+  .search-type-button {
+    display: flex;
+    justify-content: center;
+  }
+  .MuiInputLabel-formControl-220 {
+    position: absolute;
+  }
+}
+
+.radio-button-control {
+  width: 100%;
+  .padding-right-40px {
+    padding-right: 40px !important;
+  }
+}
+
+.search-radio-buttons {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+//<<<============================MEDIA QUERY=========================>>>\\
+
+@media (max-width: 1024px) {
+  .search-type-main-container .search-type-fields-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .search-type-main-container .search-type-fields-div .search-type-skill-multiselect {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .search-type-main-container
+  .search-type-fields-div
+  .search-type-skill-multiselect
+  .search-type-skills {
+    width: 60%;
+  }
+  .search-type-main-container
+  .search-type-fields-div
+  .search-type-skill-multiselect
+  .search-type-location {
+    width: 40%;
+  }
+  .search-type-main-container .search-type-fields-div .search-type-textfields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: flex-start;
+  }
+  .search-type-main-container
+  .search-type-fields-div
+  .search-type-textfields
+  .search-type-req-experience {
+    padding-right: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .search-type-main-container .search-type-fields-div .search-type-textfields .search-type-salary {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}

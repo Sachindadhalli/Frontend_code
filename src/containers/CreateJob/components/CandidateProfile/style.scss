@@ -1,0 +1,237 @@
+.candidate-profile-container{
+    display: flex;
+    flex-direction: column;
+    // width: 1140px;
+    height: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 30px ;
+    padding-left: 46px;
+    padding-right: 47px;
+  margin-bottom: 30px;
+
+    // $half : 500px;
+    $half:  47.5%;
+   // $marginRight: 50px;
+    $marginRight:  4.3%;
+    .we-encourage{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .checkbox-form{
+            width: 300px;
+        }
+        
+    }
+  .next-candidate-details{
+    padding-bottom: 40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+    .row-2{
+        display: flex;
+        .specified-organisation{
+            // width: $half;
+            margin-right: $marginRight;
+            display: flex;
+            align-items: center;
+        }
+
+        .visibility{
+            display: flex;
+            align-items: center;
+            margin-right: $marginRight;
+            // width: $half,
+        }
+    }
+
+    .qualification{
+        display: flex;
+        .qualification-select{
+            width: $half;
+            margin-right: $marginRight;
+        }
+        .institute{
+            width: $half;
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+
+    .organisation{
+        
+    }
+
+    .phd-qualification{
+        display: flex;
+
+        .phd-qualification-select{
+            width: $half;
+            margin-right: $marginRight;
+          padding-top:20px;
+        }
+
+        .institute{
+          //width: $half;
+          display: flex;
+            align-items: flex-start;
+        }
+    }
+
+    .combined-shape {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+        border-radius: 50%;
+        background-image: linear-gradient(136deg, #f0582b, #ec0586);
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        img{
+            width: 10.6px;
+            height: 16.1px;
+        }
+      }
+
+      .premium-text{
+        font-family: Roboto;
+        font-size: 16px;
+        margin-left: -11px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e73a9e;
+        padding-top:39px;
+      }
+
+      .technology-section{
+        // width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+      }
+      .document-lists {
+        min-width: 116px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        margin-left: 5px;
+
+        .document-name{
+            height: 16px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+        }
+        img{
+            width: 16px;
+            height: 16px;
+            object-fit: contain;      
+        }
+  }
+
+}
+.candidate-profile-container > div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .candidate-profile-container{
+    padding: 20px 20px;
+    .row-2{
+      flex-direction: column;
+      .specified-organisation{
+        margin-right: 0px;
+      }
+      .visibility{
+        margin-right: 0;
+      }
+    }
+    .row-2 > div{
+      justify-content: space-between;
+    }
+
+    .qualification{
+      flex-direction: column;
+      .institute{
+        width: 100%;
+      }
+      .qualification-select{
+        width: 100%;
+      }
+    }
+    .phd-qualification{
+      flex-direction: column;
+      .phd-qualification-select{
+        width: 100%;
+        margin-left: 0px;
+
+      }
+    }
+    .we-encourage{
+      justify-content: space-between;
+    }
+  }
+}
+
+@media only screen and (max-width : 480px) {
+    .candidate-profile-container{
+        padding: 10px 10px;
+        .row-2{
+            flex-direction: column;
+            .specified-organisation{
+                margin-right: 0px;
+            }
+            .visibility{
+                margin-right: 0;
+            }
+        }
+        .row-2 > div{
+            justify-content: space-between;
+        }
+        
+        .qualification{
+            flex-direction: column;
+                .institute{
+                    width: 100%;
+                }
+            .qualification-select{
+                    width: 100%;
+                }
+        }
+        .phd-qualification{
+            flex-direction: column;
+            .phd-qualification-select{
+                width: 100%;
+                margin-left: 0px;
+            }
+        }
+        .we-encourage{
+            justify-content: space-between;
+        }
+    }
+    
+}

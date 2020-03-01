@@ -1,0 +1,93 @@
+.basic-pro-container {
+  width: 848px;
+  height: auto;
+  background-color: #ffffff;
+  padding-top: 0px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 30px;
+}
+
+.save-pro-header {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.save-pro-details {
+  display: flex;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #656565;
+  margin-top: 7px;
+}
+.pro-box-1 {
+  padding: 30px 30px 30px 30px;
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+  border: solid 1px rgba(219, 219, 219, 0.4);
+}
+.MuiInput-root-74 {
+  width: 100%;
+  margin-top: 20px;
+}
+.section-body {
+  padding-left: 45px;
+  padding-right: 42px;
+
+  textarea {
+    border: none;
+    height: 120px;
+  }
+}
+.w-full {
+  width: 100%;
+}
+.mt-md {
+  margin-top: 25px;
+}
+.badge {
+  height: 30px;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #757575;
+  padding: 5px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper1 {
+  display: flex;
+  flex-direction: row;
+}
+.role {
+  margin-left: 30px;
+}
+.box-pro {
+  display: flex;
+  flex-direction: column;
+}
+.year-month1 {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 50%;
+  display: flex;
+}

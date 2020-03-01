@@ -1,0 +1,47 @@
+.view-resume-headline-main-container {
+  padding: 0px 30px 8px 30px;
+}
+
+.edit-resume-headline-container {
+  padding: 0px 30px 8px 30px;
+  font-family: Roboto;
+  .reload-clear-all-styles {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e73a9e;
+    text-align: right;
+    .clear-all {
+      margin-left: 25px;
+    }
+  }
+  .max-limit-number-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 8px;
+    font-size: 12.5px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    .maximum-character-limit {
+      color: #a4a4a4;
+    }
+    .count {
+      padding-left: 2px;
+      font-weight: 500;
+      color: #f0582b;
+    }
+  }
+}
+
+.width-100-per {
+  width: 100%;
+}

@@ -1,0 +1,90 @@
+.basic-tech-container {
+  width: 848px;
+  height: auto;
+  background-color: #ffffff;
+  padding-top: 0px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding-left: 4%;
+  padding-right: 4%;
+
+  .yr,
+  .mn {
+    border-radius: 0.5px;
+    width: 100%;
+  }
+  .yr {
+    margin-right: 40px;
+    width: 100%;
+  }
+}
+
+.save-tech-header {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.save-tech-details {
+  display: flex;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #656565;
+  margin-top: 7px;
+}
+
+.DateFormatInput-input-277 {
+  height: auto !important;
+}
+.marks,
+.edu-box-1 .MuiFormControl-root-197 {
+  width: 47%;
+}
+.marks,
+.edu-box-2 .MuiFormControl-root-197 {
+  width: 47%;
+}
+.year-month .MuiFormControl-root-197 {
+  width: 100%;
+}
+.basic-edu-container .yr,
+.basic-edu-container .mn {
+  width: 50%;
+}
+.box-tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-top: -43px;
+}
+.form-child {
+  // width: 500px;
+  width: 47.5%;
+}
+.full-form-child {
+  width: 100%;
+}
+
+.left-child-form {
+  // margin-right: 47px;
+  margin-right: 4.3%;
+}
+.fourth {
+  margin-top: 10px;
+}
+.one-forth-form {
+  width: 45%;
+}
+.one-forth-form-left {
+  margin-right: 10%;
+}
+.one-forth-form-right {
+  margin-left: 47px;
+  margin-left: 4.3%;
+}

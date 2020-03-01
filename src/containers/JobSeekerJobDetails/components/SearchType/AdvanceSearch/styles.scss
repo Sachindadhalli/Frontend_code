@@ -1,0 +1,165 @@
+.advance-search-main-container {
+  display: flex;
+  flex-direction: column;
+
+  .advance-search-skills-two-textfields {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    //padding-bottom: 40px;
+  }
+  .advance-search-multi-select-fields-upper {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    //padding-top: 30px;
+  }
+  .advance-search-multi-select-field1 {
+    width: 60%;
+    margin-top: 8px;
+  }
+  .advance-search-multi-select-field2 {
+    width: 35%;
+    padding-left: 36px;
+    padding-bottom: 10px;
+  }
+  .text-fields-and-multiselect {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-text-field-in-one-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience-textfields-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+    margin-left: 12px;
+
+    .experience-text {
+      background-color: var(--brownish-grey);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #656565;
+      padding-bottom: 5px;
+    }
+    .experience-textfields {
+      display: flex;
+      flex-direction: row;
+      .min-exp {
+        display: flex;
+        flex-direction: column;
+      }
+      .max-exp {
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+      }
+      .min-max {
+        padding-left: 24px;
+        margin-left: 24px;
+      }
+    }
+  }
+
+  .salary-multi-select-textfields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 48px;
+
+    .salary-textfields-text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 24px;
+
+      .salary-text {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+        padding-bottom: 5px;
+      }
+
+      .salary-textfields {
+        display: flex;
+        flex-direction: row;
+
+        .min-sal {
+          display: flex;
+          flex-direction: column;
+        }
+        .max-sal {
+          display: flex;
+          flex-direction: column;
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+  .multi-select-three-fields {
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    width: 100%;
+  }
+  .multi-select-field1 {
+    padding-left: 24px;
+    width: 33%;
+  }
+  .multi-select-field2 {
+    padding-left: 24px;
+    width: 33%;
+  }
+  .multi-select-field3 {
+    padding-left: 24px;
+    width: 33%;
+  }
+}
+
+//<<<<========================MEDIA QUERY===========================>>>\\
+@media (max-width: 768px) {
+  .advance-search-main-container .advance-search-skills-two-textfields {
+    display: inline;
+    flex-direction: column;
+    width: 100%;
+  }
+  .advance-search-main-container .advance-search-multi-select-fields-upper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 24px;
+  }
+  .advance-search-main-container .salary-multi-select-textfields {
+    display: inline;
+  }
+  .advance-search-main-container .multi-select-three-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+  }
+  .advance-search-main-container .experience-textfields-text {
+    display: inline-flex;
+    margin-left: 24px;
+    margin-top: 10px;
+  }
+  .advance-search-main-container .salary-multi-select-textfields .salary-textfields-text {
+    display: inline-flex;
+    margin-left: 24px;
+  }
+  .search-type-main-container .search-type-radio-buttons {
+    margin-left: 24px;
+  }
+}

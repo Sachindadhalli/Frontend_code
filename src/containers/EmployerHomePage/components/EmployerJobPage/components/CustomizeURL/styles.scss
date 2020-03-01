@@ -1,0 +1,292 @@
+.employer-job-page-customize-url-main-container {
+    position: absolute;
+    top: 4%;
+    bottom: 4%;
+    overflow: auto;
+    min-width: 400px;
+    min-height: 240px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 3.2% 4.35%;
+    width: 70%;
+  .update-profile-message-div{
+    margin: 0 5%;
+    .update-profile-message{
+      min-height: 40px;
+      border-radius: 24.5px;
+      box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.1);
+      background-color: #f0582b;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 20px 0px 19px;
+      .update-profile-message-text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+    }
+  }
+
+    .employer-job-page-customize-url-head-title {
+      position: relative;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #656565;
+        padding-bottom: 17px;
+    }
+    .employer-job-page-customize-url-description {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #757575;
+        padding-bottom: 12px;
+    }
+    .employer-job-page-customize-url-text {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #757575;
+        padding-bottom: 45px;
+
+        .employer-job-page-url {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.29;
+            letter-spacing: normal;
+            text-align: center;
+            color: #e73a9e;
+            cursor: pointer;
+        }
+    }
+    .employer-job-page-customize-url-provided-urls-title {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+        padding-bottom: 12px;
+    }
+    .employer-job-page-customize-url-provided-urls-wrapper {
+        border-radius: 5px;
+        border: solid 1px #e0e0e0;
+        background-color: #ffffff;
+        padding-left: 18px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    
+    .customize-url-provided-radio-button-specify-own-url-and-textfield {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        .customize-url-provided-radio-button-specify-own-textfield-title {
+            padding-left: 35px;
+            padding-right: 12px;
+        }
+        .customize-url-provided-radio-button-specify-own-textfield-label {
+            display: flex;
+            flex-direction: column;
+            margin-top: -23px;
+
+            .customize-url-provided-radio-button-specify-own-textfield-label-text {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #665566;
+                //margin-bottom: -20px;
+            }
+        }
+        .customize-url-provided-radio-button-specify-own-textfield-error {
+            font-family: Roboto;
+            font-size: 12px;    
+            color: #f0582b !important;
+            font-weight: 400;
+            font-size: 0.75rem !important;
+        }
+    }
+}
+    .employer-job-page-modal-btn {
+                display: flex;
+                flex-direction: row;
+                align-self: center;
+                padding-top: 60px;
+            }
+            .employer-job-page-customize-urls {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #212121;
+            }
+            .employer-job-page-customize-urls-edit {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #212121;
+            }
+}
+
+
+
+//========================>>>>> MEDIA QUERY <<<<<<<<<<<=====================//
+
+@media (max-width : 480px){
+.employer-job-page-customize-url-main-container {
+        top: 4%;
+        left: 4%;
+        right: 4%;
+        bottom:4%;
+
+    .employer-job-page-customize-url-provided-urls-wrapper {
+        overflow: auto;
+    }
+
+  }
+}
+@media (max-width : 1500px) and (min-width: 1301px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 14%;
+  }
+}
+
+@media (max-width : 1300px) and (min-width: 1201px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 32%;
+  }
+}
+@media (max-width : 1200px) and (min-width: 1051px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 45%;
+  }
+}
+
+@media (max-width : 1050px) and (min-width: 900px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width : 900px) and (min-width: 821px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 88%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}
+@media (max-width : 820px) and (min-width: 721px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 108%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}
+@media (max-width : 720px) and (min-width: 641px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 139%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}
+
+@media (max-width : 640px) and (min-width: 521px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 186%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}
+
+
+@media (max-width : 520px) and (min-width: 421px){
+  .employer-job-page-customize-url-head-title {
+    margin-top: 218%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}
+
+
+@media (max-width : 420px){
+  .employer-job-page-customize-url-head-title {
+    margin-top:240%;
+  }
+  .customize-url-provided-radio-button-specify-own-url-and-textfield{
+    flex-direction: column !important;
+    .customize-url-provided-radio-button-specify-own-textfield-label{
+      margin-top: 0 !important;
+      padding-left: 7%;
+      padding-top: 3%;
+    }
+  }
+}

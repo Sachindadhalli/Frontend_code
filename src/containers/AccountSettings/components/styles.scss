@@ -1,0 +1,353 @@
+.account-settings-page {
+    display: flex;
+    background-color: #fafafa;      
+  
+    .account-settings-right-side {
+      background-color: #fafafa;
+    }
+    .account-settings-maincontainer
+    {
+       
+        background-color: #fafafa;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-right: 40px;
+        display: flex;
+        flex-direction: column;
+        //overflow-y: scroll;
+        //height: 95vh;
+        
+
+        .account-settings-container{
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+            padding-left: 46px; 
+            padding-bottom: 27px;
+            padding-top: 27px; 
+            padding-right:46px; 
+
+            .account-settings-text {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                }   
+            .nav-create-a-job-text {
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #e73a9e;
+               }
+            .account-settings-nav {
+                color: #e73a9e;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                padding-top: 5px;
+               }
+         }
+        .account-settings-mainbody{
+            padding-left: 46px;
+            padding-top: 29px;
+            padding-bottom: 50px;
+            background-color: white;
+            padding-right:46px; 
+            .account-settings-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+            .account-settings-body-container {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                }
+            .account-settings-line{
+                width: 100%;
+                border: solid 0.7px #e0e0e0;
+                margin-top: 11px;
+            }
+            // .account-settings-body-container-part1
+            // {
+            //         // display: flex;
+            //         // flex-direction: column;
+            //         // justify-content: space-between;
+            //         // width: 100%;
+            // }
+            .account-settings-body-container-part1{
+              .email-settings-and-change-password{
+                width: 47%;
+              }
+            }
+            .account-settings-body-email-div{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .account-settings-body-email-dummyemail-div{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .body-container-email {
+                height: 19px;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                margin-top: 20px;
+            }
+            
+            .body-container-email-dummyemail{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+                padding-left: 9px;
+                margin-top: 22px;
+            }
+            
+            .body-email-edit-text {
+                
+                 font-family: Roboto;
+                 font-size: 14px;
+                 font-weight: normal;
+                 font-style: normal;
+                 font-stretch: normal;
+                 line-height: normal;
+                 letter-spacing: normal;
+                 color: #e73a9e;
+                 margin-top: 22px;
+                 cursor: pointer;
+                 padding-left: 5px;
+            }
+            
+            .account-setting-body-password-div {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-top: 33px;
+            }
+            .body-container-password {
+                width: auto;
+                height: auto;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #656565;
+            }
+            
+            .body-password-changepassword-text {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #e73a9e;
+                padding-left: 5px;
+                cursor: pointer;
+            }
+        }
+       
+            .account-settings-body-buttons{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                align-self: auto;
+
+            
+           
+            .body-button-deletebutton 
+            {
+                margin-top: 38px;
+                border-radius: 4px;
+                border: solid 1px #e0e0e0;
+                background-color: #fafafa !important;
+                width: 47%;
+                cursor: pointer;
+
+            
+            .account-settings-body-deletebutton-text {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #e73a9e;
+                margin-top: 11px;
+                margin-bottom: 10px;
+                margin-left: 9px;
+            }
+            .account-settings-body-deletebutton-textdescription {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #757575;
+                margin-bottom: 10px;
+                margin-left: 9px;
+            }
+        }
+            .body-button-suspendbutton 
+            {
+                margin-top: 38px;
+                border-radius: 4px;
+                border: solid 1px #e0e0e0;
+                background-color: #fafafa !important;
+                margin-left: 0px;
+                width: 47%;
+                cursor: pointer;
+                
+            
+            .account-settings-body-suspendbutton-text {
+               
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #e73a9e;
+                margin-top: 11px;
+                margin-bottom: 10px;
+                margin-left: 9px;
+            }
+            .account-settings-body-suspendbutton-textdescription {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #757575;
+                margin-bottom: 10px;
+                margin-left: 9px;
+            }
+        }
+        } 
+        }
+        .account-settings-body-reactivate-text {
+            margin-top: 11px;
+            text-align: center;            
+            padding-top: 17px;
+            padding-bottom: 17px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+            background-color: white;
+            cursor: pointer;
+        }
+        .account-setting-box-logout-button{
+            margin-top: 11px;
+            margin-bottom: 130px;
+        }
+       .account-setting-logout-button {
+            text-align: center;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+// =================media query===========================//
+
+@media (max-width : 1385px ) {
+    .account-settings-mainbody {
+        width: 100%;
+    .account-settings-body-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+.account-settings-page .account-settings-maincontainer .account-settings-mainbody .account-settings-body-buttons {
+    width: 100%;
+}
+.account-settings-page .account-settings-maincontainer .account-settings-mainbody .account-settings-body-buttons .body-button-deletebutton {
+    width: 100%;
+}
+.account-settings-page .account-settings-maincontainer .account-settings-mainbody .account-settings-body-buttons .body-button-suspendbutton {
+    width: 100%;    
+}
+}
+
+@media (max-width : 480px ) {
+    .account-settings-page .account-settings-maincontainer .account-settings-mainbody .account-settings-body-buttons .body-button-suspendbutton{
+        width: 100%;
+    }
+    .account-settings-page .account-settings-maincontainer .account-settings-mainbody .account-settings-body-buttons .body-button-deletebutton {
+         width: 100%;
+    }
+    .account-settings-page .account-settings-maincontainer .account-settings-container {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+  .account-settings-body-container-part1{
+    .email-settings-and-change-password{
+      width: 100% !important;
+    }
+  }
+}

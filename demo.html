@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="images/favicon.ico"/>
+    <title>HIV Virtual Assistant</title>
+    <style>#attatchID_1 {
+        width: 100% !important;
+        height: 15.2em !important;
+        left: 50%;
+        transform: translateX(-50%) !important
+    }
+
+    .character {
+        height: 100% !important
+    }
+
+    #avatar_patch {
+        height: 33.7vh;
+        position: absolute;
+        bottom: -24.8%;
+        left: 48.9% !important;
+        transform: translateX(-51%);
+        width: 340px
+    }
+
+    @media screen and (min-width: 1280px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -24.8%;
+            left: 48.9% !important;
+            transform: translateX(-51%);
+            width: 320px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -24.8%;
+            left: 46.9% !important;
+            transform: translateX(-51%);
+            width: 400px
+        }
+    }
+
+    @media screen and (min-width: 1400px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -24.8%;
+            left: 48.9% !important;
+            transform: translateX(-51%);
+            width: 450px
+        }
+    }
+
+    @media screen and (min-width: 1600px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -23.8%;
+            left: 48.9% !important;
+            transform: translateX(-51%);
+            width: 440px
+        }
+    }
+
+    @media screen and (min-width: 1900px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -24.8%;
+            left: 47.9% !important;
+            transform: translateX(-51%);
+            width: 600px
+        }
+    }
+
+    @media screen and (min-width: 2500px) {
+        #avatar_patch {
+            height: 33.7vh;
+            position: absolute;
+            bottom: -26.8%;
+            left: 48.7% !important;
+            transform: translateX(-51%);
+            width: 855px
+        }
+
+        #divVHSS-inner > canvas {
+            height: 42vh !important;
+            width: 73vh !important;
+            left: 50% !important;
+            transform: translateX(-50%)
+        }
+    }</style>
+</head>
+<body>
+<noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>,
+    please <strong>enable JS</strong> to make this app work.
+</noscript>
+<div id="app"></div>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<script type="text/javascript" src="/HIV%20Virtual%20Assistant/main.21f772fe8738ce133959.js"></script>
+</body>
+<script>var is_play = 1, text_to_speech = "", global_language_choice = "", global_voice_choice = "";
+function vh_playPause(e) {
+    1 == (is_play = e) && "" != text_to_speech && (sayText(text_to_speech, global_voice_choice, global_language_choice, 2), text_to_speech = "")
+}
+function handleAvatar(e) {
+    try {
+        null !== document.getElementById("divVHSS-inner") && (document.getElementById("divVHSS-inner").style.display = e)
+    } catch (e) {
+    }
+}</script>
+play
+<div id="divVHSS"></div>
+<script src="//vhss-d.oddcast.com/vhost_embed_functions_v2.php?acc=6902315&js=1"></script>
+<script>AC_VHost_Embed(6902315, 300, 400, "", 1, 1, 2642372, 0, 1, 0, "db5391d4000d73577e8cd3d829989007", 0, "400|300|15|15|L|T|false|0|0|0|0|vhss.oddcast.com/ccs2/vhss/user/b3f/6902315/thumbs/show_2642372.jpg|Double%20click%20to%20play%20me|0|C|0|0|0|875")</script>
+<script>function vh_sceneLoaded(e) {
+    var t = document.getElementById("attatchID_1"), a = document.createElement("img");
+    a.id = "avatar_patch", a.src = "http://35.200.135.117/HIV%20Virtual%20Assistant/qw3.png", t.parentNode.insertBefore(a, t)
+}</script>
+</html>

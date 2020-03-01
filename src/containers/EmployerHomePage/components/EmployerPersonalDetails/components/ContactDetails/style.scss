@@ -1,0 +1,40 @@
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    // height: 220px;
+    .save-discard{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    .your-contact-details{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+    }
+
+    .edit{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e73a9e;
+    }
+
+    .code{
+        width: 70px;
+    }
+    .mobile{
+        width: 80%;
+    }
+}

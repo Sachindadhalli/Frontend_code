@@ -1,0 +1,17 @@
+.edit-details-header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+.row{
+    align-items: center;
+}
+
+.remove-profile-icon {
+  position: absolute;
+  top:0;
+  right:0;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.job-by-title-main-cotainer {
+    padding: 0px 142px 45px;
+    display: flex;
+    flex-direction: column;
+ 
+    .job-by-title-heading-text {
+        font-family: Roboto ;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #353535;
+        padding-bottom: 53px;
+        text-align: center;
+    }
+    .job-by-title-button {
+        font-family: roboto;
+        font-size: 15px;
+        padding:14px 20px;
+        cursor: pointer;
+    }
+    .job-by-title-buttons-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .job-by-title-landing-buttons {
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
+ }
+ .carousel{
+    width: 100% !important
+ }

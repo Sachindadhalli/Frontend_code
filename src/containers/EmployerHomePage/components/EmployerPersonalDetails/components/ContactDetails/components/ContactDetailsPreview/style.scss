@@ -1,0 +1,40 @@
+.contact-details-preview{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .your-contact-details{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+    }
+    .contact-edit{
+        text-align: end;
+        cursor: pointer;
+    }
+    .contact-details-preview>div{
+        width: 100%;
+    }
+    .first, .second, .third{
+        display: flex;
+    }
+    .first>div{
+        width: 50%;
+    }
+    .second>div{
+        width: 50%;
+    }
+    .third>div{
+        width: 50%;
+    }
+    .row-padding{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}

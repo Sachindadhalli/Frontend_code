@@ -1,0 +1,78 @@
+.employer-inbox-search-card{
+  margin: 14px 0px 0px 0px;
+  width: 100%;
+  min-height: 79px;
+  background-color: white;
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  .employer-inbox-search-inner-allignment{
+    padding: 15px;
+    .employer-inbox-flex-space-between{
+      display: flex;
+      justify-content: space-between;
+      .job-title-text-margin{
+        margin-left: 30px;
+        margin-top: 0px;
+      }
+      .date-time-margin{
+        margin-right: 15px;
+      }
+    }
+    .search-label-text{
+      font-size: 14px;
+      color: #656565;
+    }
+    .padding-bottom-job-role-label{
+      padding-bottom: 8px;
+    }
+    .search-label-text1{
+      font-size: 16px;
+      color: #757575;
+    }
+    .date-alignments{
+
+    }
+  }
+}
+
+// i pad pro
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 415px) {
+
+}
+/*  Pixel 2 XL Portrait */
+@media screen and (device-width: 412px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: portrait) {
+
+}
+
+
+@media only screen and (max-width: 620px) {
+  .employer-inbox-flex-space-between{
+    flex-direction: column;
+    .date-time-margin{
+      margin-right: 0px;
+    }
+    .date-alignments{
+      margin: 8px;
+    }
+  }
+  .employer-inbox-search-card .employer-inbox-search-inner-allignment .employer-inbox-flex-space-between .job-title-text-margin {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+}

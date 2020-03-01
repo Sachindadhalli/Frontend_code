@@ -1,0 +1,97 @@
+.dialog-wrapper-more-about-emp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    .shenzyn-dialog-box {
+        max-width: 640px;
+        background: #fff;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        .header {
+            flex: 0 0 auto;
+            display: flex;
+            flex-direction: column;
+            font-family: Roboto;
+            .close-icon{
+                float: right;
+                height: 20px;
+                width: 20px;
+            }
+            .title-wrapper{
+                float: left;
+                .title{
+                    color: #656565;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                }
+                .hint-title{
+                    color: #757575;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                }
+            }
+        }
+        .body {
+            flex:1;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .item {
+                width: 39%;
+                margin-right: 20px;
+            }
+           
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            flex: 0 0 auto;
+            .action-btn-wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+.file-chip-wrapper-more-info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    border-radius: 19px;
+    border: solid 1px #a4a4a4;
+    color: #757575;
+    cursor:pointer;
+    justify-content: center;
+    .file-chip{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;
+        text-align: center;
+    }
+}
+.selected-chip.file-chip-wrapper-more-info{
+    border: 1px solid #e73a9e !important;
+    color:#e73a9e !important;
+    font-weight: 500 !important;
+}

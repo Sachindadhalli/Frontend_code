@@ -1,0 +1,64 @@
+@import '../../../../styles/Variable.scss';
+
+.publish-job-container{
+    box-sizing: border-box;
+    background-color: $backgroundColor;
+
+  .publish-job-content{
+    padding: 22px 0 30px 45px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .refresh-schedule{
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+        margin-bottom: 26px;
+        font-family: 'Roboto';
+    }
+    .refresh-schedule-radio{
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212121;
+        font-family: 'Roboto'
+    }
+
+    .schedule-radio{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+      margin-top: -16px;
+    }
+    
+    .hr-line-publish-job{
+        opacity: 0.4;
+        border: solid 1px #dbdbdb;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .publish-job-container{
+        padding: 32px 8px 48px;
+        .hr-line-publish-job{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .schedule-radio{
+            flex-direction: column;
+        }
+    }
+    
+
+}

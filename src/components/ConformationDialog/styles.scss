@@ -1,0 +1,50 @@
+
+.conform-dialog-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .confirm-dialog{
+        display: flex;
+        flex-direction: column;
+        padding:20px;
+        background: white;
+        width:620px;
+        justify-content: center;
+        padding: 24px 24px 30px 24px;
+        .dialog-close{
+            display: flex;
+            justify-content: flex-end;
+            cursor: pointer;
+        }
+        .dialog-header{
+            padding-left:94px;
+            padding-right: 94px;
+          text-align: center;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 16px;
+            padding-top: 5px;
+
+        }
+            .dialog-button{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 0px;
+            }
+    }
+
+}

@@ -1,0 +1,127 @@
+.inbox-jobseeker-right-wraper{
+    width:100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    .item-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card{
+        background-color: #ffffff;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        .header{            
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+            margin-bottom: 6.3%;
+        }
+        .item{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .action-btn{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            cursor: pointer;
+        }
+        .hr-line{
+            opacity: 0.4;
+            border: solid 0.6px #dbdbdb;
+            margin-top: 2.8%;
+            margin-bottom: 2.8%;
+        }
+    }
+}
+
+.inbox-jobseeker-right-wraper > div{
+    padding:15px 19px 19px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.lebal-text,.search-label-text{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:#656565;
+}
+.from-to-label-text{
+  font-size: 16px;
+  color: #757575;
+}
+.date-picker-margin-0{
+  margin: 0px;
+  padding: 0px 0 7px;
+
+}
+.item-align{
+    padding-bottom: 30px;
+  .label-text-min-max{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #757575;
+  }
+}
+.item-align-1{
+  padding-bottom: 20px;
+  .label-text-min-max{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #757575;
+  }
+}
+.hr-class{
+    height: .1px;
+    opacity: 0.4;
+    color: #fafafa;
+    width: 100%;
+}
+.margin-bottom--16px{
+  margin-bottom: -16px;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+  .inbox-jobseeker-right-wraper{
+    .card{
+      width: fit-content;
+      //margin-right: 10px;
+      margin-top: 15px;
+    }
+  }
+}
+

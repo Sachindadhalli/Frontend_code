@@ -1,0 +1,228 @@
+.footer-main-container {
+  position: relative;
+
+  //border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  .footer-clip-path-division {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #ec008c;
+    opacity: 0.05;
+    clip-path: ellipse(100% 56% at 50% 56%);
+  }
+  .footer-wrapper-division {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 95%;
+    align-self: center;
+    .footer-about-us-contact-div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      align-self: center;
+      width: 17%;
+
+      .footer-about-us-title {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #353535;
+      }
+      .footer-text-right-border {
+        min-height: 31px;
+        border-right: solid 1px #282727;
+      }
+      .footer-contact-title {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #353535;
+      }
+    }
+
+    .footer-any-question-privacy-policy-wrapper {
+      padding: 62px 101px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .footer-any-question-icons-email-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 83%;
+        .footer-any-quetion-title {
+          font-family: Roboto;
+          font-size: 25px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #353535;
+
+          .footer-any-quetion-email {
+            font-weight: bold;
+            padding-left: 5px;
+          }
+        }
+        .footer-any-quetion-icons {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 35%;
+          align-items: center;
+
+          .footer-facebook-icon {
+            width: 38px;
+            height: 38px;
+          }
+          .footer-twitter-icon {
+            width: 38px;
+            height: 38px;
+          }
+          .footer-linkedin-icon {
+            width: 38px;
+            height: 38px;
+          }
+          .footer-privacy-policy-email {
+            font-size: 25px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #353535;
+          }
+        }
+
+        .footer-text-right-border {
+          min-height: 31px;
+          border-right: solid 1px #282727;
+        }
+      }
+      .privacy-policy-title {
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #353535;
+      }
+    }
+    .footer-information-jobseeker-employer-apps {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 62px 101px;
+
+        .unordered-list-information-title {
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #353535;
+            padding-bottom: 40px;   
+        }
+        .footer-list-information-wrapper {
+            list-style-type:none; 
+            
+            .list-option {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #353535;
+                padding-bottom: 22px;
+
+                .list-option-link {
+                    text-decoration: none;
+                    color: #353535;
+                }
+            }
+        }
+        .footer-text-right-border {
+            min-height: 469px;
+            opacity: 0.25;
+            border: solid 1px #282727;
+          }
+
+          .footer-unordered-list-1 {
+              padding-bottom: 70px;
+
+              .unordered-list-jobseeker-title {
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #353535;
+                padding-bottom: 40px;   
+            }
+          }
+          .footer-unordered-list-2 {
+          .unordered-list-employer-title {
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #353535;
+            padding-bottom: 40px;
+        }
+    }
+          .footer-text-right-border {
+            min-height: 469px;
+            opacity: 0.25;
+            border: solid 1px #282727;
+          }
+          .footer-mobile-app-icon {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              .unordered-list-app-title {
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #353535;
+                padding-bottom: 16px;
+              }
+              .footer-google-play-icon {
+                  margin-bottom: 18px;
+              }
+          }
+    }
+  }
+}

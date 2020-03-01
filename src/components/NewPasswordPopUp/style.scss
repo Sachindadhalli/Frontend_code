@@ -1,0 +1,72 @@
+.employer-forgot-password-model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 561px;
+    height: 334px;
+    background-color: white;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .email-modal-close {
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        padding-right: 30px;
+        padding-top: 10px;
+
+        .close {
+            cursor: pointer;
+            width: 23px;
+            height: 23px;
+            object-fit: contain;
+          }
+    }
+
+    .form-child {
+      width: 437px;
+      height: 29px;
+      object-fit: contain;
+    }
+
+    .Create-New-Password {
+      width: 238px;
+      height: 28px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #656565;
+    }
+
+    .password-error-message{
+      width: 30vw;
+      text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 415px) {
+  .employer-forgot-password-model {
+    .form-child{
+      width: 80vw;
+    }
+    .Create-New-Password{
+      width: 90vw;
+    }
+    .password-error-message{
+      width: 80vw;
+    }
+  }
+
+}

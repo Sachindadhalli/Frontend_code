@@ -1,0 +1,195 @@
+.employer-right-wraper{
+    
+    width:100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+    .item-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2.8%;
+        margin-bottom: 2.8%;
+    }
+
+    .card{
+        
+        // height: 131px;
+        background-color: #ffffff;
+        display:flex;
+        flex-direction: column;
+
+        .header{            
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+            margin-bottom: 6.3%;
+        }
+
+        .item{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+
+
+        .action-btn{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            cursor: pointer;
+        }
+
+        .hr-line{
+            opacity: 0.4;
+            border: solid 0.6px #dbdbdb;
+            margin-top: 2.8%;
+            margin-bottom: 2.8%;
+            
+        }
+    }
+
+    .checklist{
+        height: 173px;
+        background-color: #ffffff;
+
+        .checklist-text{            
+            height: 24px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+        }
+        .claim-name{
+            height: 19px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+        }
+        .approve {
+            height: 12px;
+            background-color: var(--green);
+          }
+
+        .first-line{
+            border: solid 0.6px #dbdbdb;
+        }
+        .second-line{
+            border: solid 0.6px #dbdbdb;
+        }
+          
+    }
+
+    .uploads-documents{
+        
+        height: 188px;
+        background-color: #ffffff;
+
+        .uploads-documents-text{
+            //width: 171px;
+            height: 24px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+        }
+
+        .uploads-documents-button{
+            width: 202px;
+            height: 38px;
+            border-radius: 19px;
+            border: solid 1px #e73a9e;
+        }
+        .upload-document-button-text{            
+            height: 19px;
+            font-family: Roboto;
+            font-size: 13px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #e73a9e;
+        }
+    }
+
+    .quick-links{
+        
+        height: 188px;
+        background-color: #ffffff;
+
+        .quick-links-text{
+            height: 24px;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #656565;
+
+            margin-top: 5px;
+        }
+
+        .quick-links-item{
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e73a9e;
+            cursor: pointer;
+        }
+    }
+
+    .chats{
+        
+        height: 291px;
+        background-color: #ffffff;
+    }
+}
+
+.employer-right-wraper > div{
+    margin-top: 31px;
+    padding:7.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

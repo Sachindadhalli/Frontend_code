@@ -1,0 +1,182 @@
+.inbox-jobseeker-right-container{
+    display: flex;
+    flex-direction: row;
+    //overflow-y: auto;
+  height: auto;
+    //padding: 0px 10px 50px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .home-right-wraper{
+        width: 75.17%;
+    }
+    .inbox-jobseeker-right-containers{
+        width:23.07%;
+    }
+    
+}
+.inbox-jobseeker-auto-overflow{
+  //overflow: auto;
+  height: auto;
+  .inbox-jobseeker-border-padding{
+    padding: 30px 40px;
+    .head-text-padding{
+      padding-left: 56px;
+    }
+  }
+  .inbox-jobseeker-pagination-content{
+    //padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+
+
+  }
+  .inbox-jobseeker-pagination-content>td>div{
+    height: 35px;
+    min-height: 35px;
+    padding-right: 2px;
+    padding-bottom: 11px;
+  }
+
+  .inbox-jobseeker-card-allignment{
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .no-message-card{
+      background: white;
+      min-width: 100%;
+      height: 69vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      color: #656565;
+    }
+  }
+}
+
+
+.inbox-jobseeker-page {
+    display: flex;
+  height: auto;
+    .inbox-jobseeker-right-side {
+      background-color: #fafafa;
+      height: 100vh;
+      width:100vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .inbox-jobseeker-container {
+      padding-top: 29px;
+      margin-top: 21px;
+      overflow-y: hidden;
+      height: fit-content;
+      width: auto;
+      margin-left:46px;
+      justify-content: space-between;
+    }
+  
+    .inbox-jobseeker-text,
+    .inbox-jobseeker-nav,
+    .inbox-jobseeker-text {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #656565;
+      margin-bottom: 6px;
+    }
+  
+    .nav-create-a-job-text {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #e73a9e;
+    }
+}
+//.MuiChip-root-98 {
+//  margin-bottom: 5px;
+//}
+
+
+@media only screen and (max-width: 415px) {
+  .inbox-jobseeker-right-container{
+    flex-direction: column;
+    .home-right-wraper{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .inbox-jobseeker-right-containers{
+      width:100%;
+    }
+
+  }
+  .card{
+    //margin-left: 10px;
+  }
+  .inbox-jobseeker-auto-overflow{
+    .inbox-jobseeker-border-padding {
+      padding: 20px;
+    }
+
+    }
+  .inbox-jobseeker-right-container{
+    padding: 0px 0px 50px 0px;
+  }
+}
+/*  Pixel 2 XL Portrait */
+@media screen and (device-width: 412px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) and (orientation: portrait) {
+  .inbox-jobseeker-auto-overflow .inbox-jobseeker-border-padding .head-text-padding {
+    padding-left: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 620px) {
+  .inbox-jobseeker-right-container{
+    flex-direction: column;
+    .home-right-wraper{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .inbox-jobseeker-right-containers{
+      width:100%;
+    }
+    .card{
+      //margin-left: 10px;
+    }
+
+  }
+  .inbox-jobseeker-auto-overflow .inbox-jobseeker-border-padding .head-text-padding {
+    padding-left: 10px;
+  }
+  .inbox-jobseeker-border-padding{
+    padding: 25px;
+  }
+  .inbox-jobseeker-pagination-content{
+    //margin-right: 10px;
+  }
+  .inbox-jobseeker-pagination-content > td >div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.scrollable-element {
+  scrollbar-width: thin;
+}

@@ -1,0 +1,12 @@
+.left-nav {
+  display: flex;
+  .top-nav {
+    background: #fafafa;
+  }
+}
+.reason-ellipsis {
+  width: 148px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,585 @@
+.job-seeker-sign-up-container {
+  background: #f7f8fa;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-seeker-sign-up-container > .step-wrapper-inner {
+  padding-top: 93px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.step-wrapper-inner > .nested-container {
+  width: 100%;
+  margin-top: calc(183px - 93px);
+}
+
+.jobseeker-signup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jobseeker-form {
+  height: 620px;
+  width: 35vw;
+  padding: 64px 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.jobseeker-education {
+  width: 500px;
+  padding: 40px 42px 45px 42px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.jobseeker-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #656565;
+
+  .form-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#select-Code {
+  #country-code {
+    width: 100px;
+    overflow: hidden;
+  }
+}
+
+.verify-text {
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e73a9e;
+}
+
+.otp-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 18em;
+  width: 32em;
+  background-color: white;
+  outline: none;
+}
+
+.otp-modal-close {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.otp-modal-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 71%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-text {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #656565;
+}
+
+.qualification-container {
+  // height: 383px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 436px;
+  border-radius: 5px;
+  padding: 37px 30px 23px 30px;
+  border: dotted 1px #e0e0e0;
+}
+
+.employment-container {
+  // height: 383px;
+  margin-top: 30px;
+  height: auto;
+  border-radius: 5px;
+  padding: 30px 30px 30px 30px;
+  border: dotted 1px #e0e0e0;
+}
+
+.added-skills {
+  list-style: none;
+  margin: 16px 10px;
+  font-size: 14px;
+  color: #656565;
+  width: 100%;
+}
+
+.stepper {
+  background: transparent;
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.stepper > div {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  bottom: -25px;
+  left: -85px;
+  text-align: center;
+  height: 18px;
+  width: 200px;
+}
+
+.stepper > span > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.step-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divider {
+  height: 2px;
+  width: 150px;
+  background: #b1b1b1;
+}
+
+.step {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #b1b1b1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed {
+  border-color: #e73a9e;
+}
+
+.completed-divider {
+  background: #e73a9e;
+}
+
+.inProcess {
+  border-color: #e73a9e;
+}
+
+.completedInner {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  background: #e73a9e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressInner {
+  height: 60%;
+  width: 60%;
+  border-radius: 50px;
+  background: #e73a9e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aadhar-upload {
+  position: absolute;
+  bottom: 20%;
+  left: 148px;
+  display: flex;
+  word-break: break-word;
+  cursor: pointer;
+}
+
+.skill-list {
+  line-height: 3;
+  margin: 5px;
+}
+.tickStep {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e73a9e;
+  border-radius: 20px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* STYLES GO HERE */
+  .drop-down {
+    // width: 300px !important;
+    width: 100%;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 360px;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 275px;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 385px;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 35vw;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  /* STYLES GO HERE */
+  .jobseeker-form {
+    height: 620px;
+    width: 300px;
+    padding: 64px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .stepper {
+    background: transparent;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+  }
+}
+.static-div{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+.add-experience{
+  padding-top: 20px;
+}
+.dialog-title{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #656565;
+}
+.untick-checkbox-red {
+  color: red;
+  //border: solid 2px #f0582b;
+}
+.tick-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  //background-color: #e73a9e;
+}
+.change-label-style{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #656565 !important;
+}
+.jobseeker-form .change-label-style{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #656565;
+}
+.drop-down .change-label-style{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #656565;
+}
+.country-drop-down .change-label-style{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #656565;
+}
+.forgot-password-email .change-label-style{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #656565;
+}
+.characters-left-style{
+  position: relative;
+  width: 100%;
+}
+.characters-left-style-text{
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #656565;
+}
+.textfield-specifivity-label label{
+  margin-top: -8px;
+}
+.country-code-drop-icon img{
+  margin-top: 10px;
+}

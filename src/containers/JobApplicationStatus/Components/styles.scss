@@ -1,0 +1,196 @@
+.sub-user-page {
+    display: flex;
+  
+    .sub-user-right-side {
+      background-color: #fafafa;
+      height: 100vh;
+      width:100vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .sub-user-wrapper {
+      height: calc(100% - 72px);
+      overflow: auto;
+    }
+  .sub-user-style-manual{
+height:unset!important;
+    overflow: unset!important;
+  }
+    .sub-user-container {
+      padding-top: 29px;
+      display: flex;
+      overflow-y: hidden;
+      height: auto;
+      width: auto;
+      display: flex;
+      margin-left:46px;
+      justify-content: space-between;
+      margin-top: 0px;
+  
+    }
+       .Jobs-heading {
+           color: #656565;
+          
+       }
+       .total-jobs-sort-by-select-status {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           background-color: white;
+           margin-top: 20px;
+
+           
+           
+           //margin-bottom: -12px;
+           .total-jobs-count {
+             display: flex;
+             flex-direction: row;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #354052;
+
+            .total-jobs-count-title {
+              padding-right: 5px;
+            }
+           }
+
+           .job-application-status-select-fields {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             padding-top: 15px;
+
+             .job-application-status-select-fields-filter-sort {
+              display: flex;
+              flex-direction: row ;
+              justify-content: space-between;
+              .sort-by-text-field {
+                margin-right: 70px;
+                padding-top: 16px;
+              }
+              .filter-by-text-field {
+                margin-right: 70px;
+              }
+           }
+          }
+           .title-input {
+             padding-top: 0px;
+           }
+          
+           .total-jobs-count {
+               padding-top: 30px;
+               padding-bottom: 30px;
+               padding-left: 46px;
+               font-size: 16px;
+               font-weight: normal;
+               font-style: normal;
+               font-stretch: normal;
+               line-height: normal;
+               letter-spacing: normal;
+               color: #354052;
+           }
+           .total-jobs-from-to-date-picker {
+             display: flex;
+             flex-direction: row;
+
+           .total-jobs-from-date-picker {
+             width: 158px;
+             padding-right: 30px;
+             margin-top: -1px;
+           }
+           .total-jobs-to-date-picker {
+            width: 158px;
+            padding-right: 30px;
+            margin-top: -1px;
+          }
+          .from-to-date-picker {
+            margin-top: -4px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #665566;
+            margin-bottom: 0px;
+          }
+        }
+       }
+  .job-application-component {
+      //margin-top: -12px;
+  }
+
+  }
+
+
+
+  //<<<<<<<<<<<<<<================================>>>>>>>>>>>>>>>>>>>
+
+
+  @media (max-width: 1024px) {
+    .sub-user-page .total-jobs-sort-by-select-status {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .sort-by-text-field {
+
+      margin-right: 25px;
+      margin-left: 46px;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .filter-by-text-field {
+      margin-right: 16px !important;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields {
+      padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .total-jobs-from-date-picker {
+      padding-right: 15px;
+      width:135px;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .total-jobs-to-date-picker {
+      padding-right: 15px;
+      width: 135px;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .total-jobs-from-to-date-picker {
+      padding-top: 15px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 46px;
+      width: 100%
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .job-application-status-select-fields-filter-sort{
+      justify-content: flex-start;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .job-application-status-select-fields-filter-sort .filter-by-text-field {
+      width: 250px !important;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .job-application-status-select-fields-filter-sort .sort-by-text-field {
+      margin-right: 30px;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .total-jobs-from-to-date-picker .total-jobs-from-date-picker {
+      width: 230px;
+    }
+    .sub-user-page .total-jobs-sort-by-select-status .total-jobs-from-to-date-picker .total-jobs-to-date-picker {
+      width: 230px;
+
+    }
+  }
+@media (max-width: 768px) {
+  .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .filter-by-text-field {
+    margin-right: 36px !important;
+  }
+  .sub-user-page .total-jobs-sort-by-select-status .job-application-status-select-fields .job-application-status-select-fields-filter-sort{
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,124 @@
+@import '../../../../../../styles/Variable.scss';
+ // $themeTextColor
+.my-organisation{
+    box-sizing: border-box;
+  
+    background-color: $backgroundColor;
+    form{
+        width: 100%;
+        margin-top:35px;
+    }
+    .organisation-style{
+        padding: 50px 40px 31px 40px;
+      .status-label-text{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
+        //padding-top: 12px;
+      }
+      .align-item-space-between{
+        display: flex;
+        justify-content: space-between;
+        //align-content: center;
+        //align-items: center;
+        .top-padding-12{
+          padding-top:12px;
+        }
+
+      }
+      .second-div-35-top-margin{
+        margin-top: 35px;
+      }
+
+    }
+    .form-hr-line{
+    height: 1px;
+    opacity: 0.4;
+    border: solid 1px #dbdbdb;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+   
+    .add-organisation{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color:#656565;
+        padding-top: 43px;
+        padding-left: 40px;
+    }
+    .advertise-delete-save{
+        display: flex;
+        // margin-bottom: 5.3%;
+        .advertise{
+            font-size: 20px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            margin-bottom: 30px;
+            color: #000000;
+        }
+        .delete-all-information-root{
+            display: flex;
+
+            .delete-all-information{
+                color: $themeTextColor;
+                font-size: 16px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                text-transform: none;
+            }
+        }
+        .save-root{
+            .save{
+                box-sizing: border-box;
+                padding: 10px 48.5px;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color:$themeTextColor;
+                border-radius: 19px;
+                border: solid 1px $themeTextColor;
+            }
+        }
+    }
+    .full-width{
+        width: 100%;
+    } 
+    .half-width{
+        width: 49%;
+        .label{
+            color:#757575;
+            font-size: 16px;
+             }
+    }
+    .margin-right{
+    margin-right:50px;
+    width:45%
+    }
+    .first-organisation-save-btn{
+        padding-bottom: 31px;
+        display:flex;
+        justify-content: center;
+    }
+    
+}

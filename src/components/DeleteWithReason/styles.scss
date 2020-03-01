@@ -1,0 +1,103 @@
+.delete-with-reason-model-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .delete-with-reason-model {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 620px;
+    padding: 20px;
+    .delete-with-reason-model-inside-form {
+      width: 100%;
+      padding-right: 20px;
+      .delete-modal-close {
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        .close {
+          cursor: pointer;
+          object-fit: contain;
+        }
+      }
+
+      .delete-account-pop-up {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .delete-modal-radio-buttons {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+        padding-top: 30px;
+      }
+      .value-other-specify-reason-field {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .value-other-specify-reason-field-charactercount {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        font-size: 14px;
+      }
+      .value-other-specify-reason-field-charactercount-left-character {
+        color: gray;
+      }
+      .value-other-specify-reason-field-charactercount-left-character-count {
+        color: #f0582b;
+        margin-left: 4px;
+      }
+      .MuiFormControl-marginNormal-99 {
+        width: 100%;
+      }
+
+    }
+    .delete-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 32px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+//====================================> media query<=====================================================
+
+@media (max-width: 360px) {
+  .delete-with-reason-model-container .delete-with-reason-model {
+    display: flex;
+    width: 280px !important;
+  }
+  .delete-with-reason-model-container .delete-with-reason-model .delete-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    .shenzyn-btn .outline-primary-button .mr-20 {
+      margin-right: 0px !important;
+    }
+    .shenzyn-btn .filled-primary-button {
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+  }
+}

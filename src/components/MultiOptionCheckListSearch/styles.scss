@@ -1,0 +1,47 @@
+.main-container {
+  width: 639px;
+  min-height: 289px;
+  height: auto;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  .close-image-search-field-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    //padding-bottom: 34px;
+  }
+  .filter-name {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  .filter-count {
+    padding-right: 10px;
+  }
+  .delete-modal-close {
+    cursor: pointer;
+  }
+  .check-list-container{
+    padding-top: 34px;
+    .more-checkbox-wrapper{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 168px;
+      .more-checkbox-item{
+        padding: 4px 0;
+        .filter-name{
+          padding-left: 8px;
+        }
+        .filter-count{
+          padding-left: 8px;
+        }
+      }
+    }
+  }
+}

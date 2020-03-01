@@ -1,0 +1,93 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 23px;
+  padding-right: 23px;
+  .container {
+    width: 100%;
+    .text-field {
+      margin-left: 12px;
+      margin-right: 12px;
+      width: 50%;
+    }
+  }
+  .each-row {
+    display: flex;
+    padding-left: 23px;
+    padding-right: 46px;
+    padding-top: 34px;
+    justify-content: space-between;
+    .each-col {
+      width: 44%;
+      .each-control {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.userList {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top:50px;
+  table {
+    thead {
+      tr {
+        height: 35px !important;
+        background: #fafafa;
+        border-bottom: none !important;
+        th {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #757575;
+          padding:none !important; 
+          border:none;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: black;
+          padding:none !important; 
+          width: auto;
+          height: 55px;
+        }
+      }
+        tr:last-child td {
+          border-bottom: none;
+      }
+    }
+  }
+}
+.delete-icon {
+  margin-left: 23px;
+}
+.email{
+  width:100%
+}
+.error-message{
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 8px;
+  min-height: 1em;
+  font-family: "Roboto";
+  line-height: 1em;
+  color: #f0582b;
+}
+

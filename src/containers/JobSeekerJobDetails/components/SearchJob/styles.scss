@@ -1,0 +1,291 @@
+.filter-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  .filter_by {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #656565;
+    padding-top: 17px;
+  }
+}
+.total-result-div {
+  display: flex;
+  flex-direction: row;
+    .total-result-title {
+        padding-right: 5px;
+    }
+    
+}
+.total-result-applied-div {
+  display: flex;
+  flex-direction: row;
+  .total-result-applied-count {
+    padding-right: 8px;
+  }
+}
+.line-seperator {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #dbdbdb; /* old IE */
+  background-color: #dbdbdb; /* Modern Browsers */
+}
+.total-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #354052;
+}
+
+.search-job-cards-wrapper{
+  width: 75%;
+}
+.search-job-sidebar{
+  width: 25%;
+
+}
+
+.search-job-card-text-filter-wrapper{
+  width: 100%;
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top:36px;
+  .pagination-total-count-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .total-pagination-sort-by-wrapper{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-content: center;
+      width: 74.38%;
+      .sort-by-container{
+        width: 12.61%;
+      }
+      .pagination-container{
+
+      }
+    }
+    .total-result-job-applied-count-wrapper{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-content: center;
+      width: 23.07%;
+      .total-result-count-container{
+        color: #354052;
+        font-size: 14px;
+      }
+      .today-applied-job-container{
+        color: #354052;
+        font-size: 14px;
+      }
+    }
+
+  }
+  .job-card-filter-by-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    .job-card-container{
+      width: 74.38%;
+    }
+    .filter-by-container{
+      background-color:#ffffff;
+      width: 23.07%;
+      height: fit-content;
+      .filter-by-body{
+        padding: 17px 20px 17px 20px;
+        .filter-by-text{
+          font-size: 20px;
+          font-weight: 500;
+          color: #656565;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+//<<<============================MEDIA QUERY=========================>>>\\
+
+@media (max-width: 768px) {
+  .total-filters {
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px !important;
+    margin-right: 120px;
+  }
+  .filter-container {
+    padding-top: 0px !important;
+  }
+  .job-list-main-container {
+    //margin-top: 64px;
+    width: 100%;
+  }
+  .search-job-sidebar{
+    width: 25%;
+  }
+}
+.settings-list-wrapper{
+  background-color: #000000;
+  .sub-user-settings-list-item{
+    padding: 16px ;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+  .account-settings-list-item{
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      background-color: #2e2b43;
+    }
+  }
+}
+
+.sorry-warning-message{
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  .large-text{
+    font-size: 18px;
+    color: #515050;
+    margin-bottom: 24px;
+    font-family: Roboto;
+  }
+  .smallText{
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    .or{
+      margin: 10px;
+      font-size: 12px;
+      color: #999;
+
+    }
+    .cja{
+      font-size: 13px;
+      color: #999;
+    }
+  }
+}
+
+
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+  .search-job-card-text-filter-wrapper{
+    .pagination-total-count-container{
+      padding-bottom: 12px;
+      .total-pagination-sort-by-wrapper{
+        flex-direction: row;
+        .sort-by-container{
+          width: 107px;
+        }
+        .pagination-container{
+          &>td>div{
+            flex-wrap: wrap;
+            justify-content: flex-end;
+          }
+        }
+      }
+      .total-result-job-applied-count-wrapper{
+        flex-direction: column;
+        .total-result-count-container{
+        }
+        .today-applied-job-container{
+          padding-top: 7px;
+        }
+      }
+
+    }
+    .job-card-filter-by-container{
+      .job-card-container{
+      }
+      .filter-by-container{
+        .filter-by-body{
+          .filter-by-text{
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .search-job-card-text-filter-wrapper{
+    .pagination-total-count-container{
+      padding-bottom: 12px;
+      .total-pagination-sort-by-wrapper{
+        flex-direction: row;
+        .sort-by-container{
+          width: 107px;
+        }
+        .pagination-container{
+          &>td>div{
+            flex-wrap: wrap;
+            justify-content: flex-end;
+          }
+        }
+      }
+      .total-result-job-applied-count-wrapper{
+        flex-direction: column;
+        .total-result-count-container{
+        }
+        .today-applied-job-container{
+          padding-top: 7px;
+        }
+      }
+
+    }
+    .job-card-filter-by-container{
+      .job-card-container{
+      }
+      .filter-by-container{
+        .filter-by-body{
+          .filter-by-text{
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.left-nav {
+  display: flex;
+  .top-nav {
+    background: #fafafa;
+  }
+}
+
+.job-list-item-documents-icons {
+  display: flex;
+  flex-direction: row;
+  .job-list-item-documents-icons--video-icon-wrapper {
+    margin-right: 16px;
+    cursor: pointer;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .job-list-item-documents-icons--document-icon-wrapper {
+    margin-right: 16px;
+    cursor: pointer;
+    img {
+      width: 16px;
+      height: 24px;
+    }
+  }
+}
+
+.job-list-company-name-wrapper {
+  display: flex;
+  .job-list-company-image-div {
+    width: 42%;
+  }
+  .job-list-criteria-match {
+    .job-list-match {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+    .job-list-percentage {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #2aa11d;
+      margin-left: 10px;
+    }
+  }
+}

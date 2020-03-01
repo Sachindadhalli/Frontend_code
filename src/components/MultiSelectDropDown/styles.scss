@@ -1,0 +1,46 @@
+.css-bgvzuu-indicatorSeparator{
+    display: none !important
+}
+.multi-select-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .multi-select-location{
+        padding-left: 20px;
+    }
+    .css-bg1rzq-control {
+        align-items: center !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom:  1px solid !important;
+        border-radius: none !important;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        border-color: '#fafafa'; 
+        cursor: default !important;
+        display: flex !important;
+
+    }
+    .css-bg1rzq-control :hover {
+        align-items: center !important;
+        border-bottom: 1px solid !important;
+        cursor: default !important;
+        display: flex !important;
+        border-radius: 0px !important;
+        border-color: black !important;
+        border-style: none !important;
+        display: flex !important;
+
+    }
+    .Select-value {
+        display: inline-flex;
+        align-items: center;
+    }	
+    .input-lable {
+        color: #656565;
+    }
+}

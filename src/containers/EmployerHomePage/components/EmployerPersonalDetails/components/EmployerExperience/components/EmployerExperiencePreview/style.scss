@@ -1,0 +1,46 @@
+
+.single-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .experience-edit{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first, .second, .third{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .first>div{
+        width: 50%;
+    }
+    .second>div{
+        width: 50%;
+    }
+    .third>div{
+        width: 50%;
+    }
+
+
+    .edit{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e73a9e;
+        cursor: pointer;
+    }
+    .row-padding{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}

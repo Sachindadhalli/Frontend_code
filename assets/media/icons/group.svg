@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="34" viewBox="0 0 43 34">
+    <defs>
+        <linearGradient id="a" x1="13.149%" x2="88.046%" y1="0%" y2="78.223%">
+            <stop offset="0%" stop-color="#F0582B"/>
+            <stop offset="100%" stop-color="#EC0586"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#2E2A43" fill-rule="nonzero">
+            <path d="M2.313 14.398l10.536 8.345c.478.378 1.136.546 1.775.514.639.032 1.297-.135 1.775-.514l10.536-8.345c.844-.665.653-1.21-.418-1.21H2.735c-1.073 0-1.264.545-.422 1.21z"/>
+            <path d="M27.696 16.6l-11.513 8.74c-.43.324-.995.482-1.556.474-.563.008-1.127-.151-1.558-.473L1.554 16.599C.699 15.952 0 16.3 0 17.371v14.342c0 1.072.878 1.95 1.95 1.95H27.3c1.072 0 1.95-.878 1.95-1.95V17.371c0-1.072-.7-1.42-1.554-.772z"/>
+        </g>
+        <circle cx="31" cy="12" r="12" fill="url(#a)" fill-rule="nonzero"/>
+        <text fill="#FFF" font-family=".AppleSystemUIFont" font-size="14">
+            <tspan x="27" y="16">2</tspan>
+        </text>
+    </g>
+</svg>

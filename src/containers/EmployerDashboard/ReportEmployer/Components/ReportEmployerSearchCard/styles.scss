@@ -1,0 +1,97 @@
+.report-employer-search-card{
+  width: 100%;
+  min-height: 110px;
+  background-color: #ffffff;
+  padding:30px 44px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: space-between;
+  .search-card-label-text{
+    font-size: 14px;
+    color: #656565;
+  }
+  .item-align1{
+    display: flex;
+    width: 25.43%;
+    justify-content: space-between;
+    .item-align1-inside{
+      width: 46.42%;
+    }
+    .item-align1-newinside{
+      width: 100%;
+    }
+  }
+  .item-align2{
+    display: flex;
+    width: 38.34%;
+    justify-content: space-between;
+  }
+  .item-align3{
+    //display: flex;
+    width: 20.21%;
+    justify-content: space-between;
+  }
+  .item-align4{
+    display: flex;
+    width: 52.28%;
+    justify-content: space-between;
+    .item-align4-inside1{
+      width: 21.81%;
+    }
+    .item-align4-inside2{
+      width: 73.15%;
+    }
+  }
+  .employer-dashboard-export-button{
+      display: flex;
+    flex-direction: row;
+  }
+}
+
+//Ipad Pro
+@media only screen and (max-width: 900px),
+(height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
+(width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait)  {
+  .report-employer-search-card{
+    flex-direction: column;
+    .item-align1{
+      flex-direction: row;
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .item-align2{
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .item-align3{
+      width: 100%;
+    }
+  }
+}
+
+//Ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .report-employer-search-card{
+    flex-direction: column;
+    .item-align1{
+      flex-direction: row;
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .item-align2{
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .item-align3{
+      width: 100%;
+    }
+  }
+}
+

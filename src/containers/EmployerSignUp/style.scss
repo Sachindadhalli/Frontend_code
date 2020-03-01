@@ -1,0 +1,174 @@
+.employer-sign-in-main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fa;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+
+
+.employer-signup {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f8fa;
+  
+
+  .employer-signup-header {
+    img {
+      width: 100vw;
+    }
+  }
+
+  .employer-signup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    //margin-top: 64px;
+
+    .employer-signup-form {
+      // height: 45vh;
+      // width: 40vw;
+      //width: 580px;
+      //height: 399px;
+      padding: 40px 70px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      .employer-signup-text {
+        width: 100%;
+        text-align: center;
+        height: 28px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #656565;
+        margin-top: 20px;
+        //margin-bottom:  1vh;
+      }
+
+      .terms-error{
+        margin-left: 30px !important;
+      }
+
+      .employer-signup-terms {
+        display: flex;
+        flex-direction: row;
+        .terms-text {
+          font-family: 'Roboto';
+          font-size: 16px;
+          margin-left: 1vw;
+        }
+
+        .tick-checkbox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20px;
+          height: 20px;
+          border-radius: 3px;
+          //background-color: #e73a9e;
+        }
+
+        .untick-checkbox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+          border-radius: 3px;
+          //border: solid 2px #f0582b;
+        }
+
+        .tick {
+          width: 12px;
+          height: 9px;
+          object-fit: contain;
+          background-color: var(--white);
+        }
+
+        .rectangle {
+          width: 580px;
+          height: 399px;
+          background-color: var(--white);
+        }
+      }
+
+      .form-child {
+        width: 437px;
+        // height: 29px;
+        object-fit: contain;
+      }
+
+      .solid_button {
+        margin: 20px;
+        width: 132px;
+        height: 38px;
+        border-radius: 19px;
+        background-image: linear-gradient(107deg, #f0582b, #ec0586);
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 41px;
+      }
+
+      .password-error-message{
+        width: 437px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 415px) {
+  .employer-signup{
+    .employer-signup-content {
+      background-color: white;
+      .employer-signup-form {
+        height: 60vh;
+        width: 80vw;
+        padding: 24px 36px;
+
+        .employer-signup-email{
+          width: 100%;
+        }
+        .employer-signup-password{
+          width: 100%;
+        }
+
+        .form-child{
+          width: 100%;
+        }
+
+        .password-error-message{
+          width: 100%;
+        }
+
+        .employer-signup-button{
+          .solid_button{
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
+
+}
+

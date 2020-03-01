@@ -1,0 +1,21 @@
+.basic-user-view-container {
+  width: 848px;
+  height: 175px;
+  background-color: #ffffff;
+  padding-top: 8px;
+  margin-top: 16px;
+  box-sizing: border-box;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.annual-salary {
+  padding-left: 15px;
+}
+.basic-details-div {
+  padding: 8px 30px;
+}
+@media only screen and (max-width: 620px) {
+  .basic-details-div {
+    padding: 5px;
+  }
+}

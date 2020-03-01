@@ -1,0 +1,116 @@
+import React, { Component } from 'react';
+import InputLabel from '@material-ui/core/InputLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import { TextField } from '@material-ui/core';
+// import customisedMaterial from '../../styles/customisedMaterial';
+
+const color = "#000000";
+
+const styles = (theme) => ({
+    root: {
+        display: 'flex',
+        flexWrap: 'wrap',
+      },
+      margin: {
+        margin: '5px',
+      },
+      withoutLabel: {
+        marginTop: '5px',
+      },
+      textField: {
+        flexBasis: 200,
+      },
+    cssLabel: {
+        '&$cssFocused': {
+            color: color,
+        },
+    },
+    cssFocused: {},
+    cssUnderline: {
+        '&:after': {
+            borderBottomColor: color,
+        },
+        '&:hover:not($disabled):before': {
+            borderBottomColor: `$color !important`,
+        }
+    },
+    label: {
+        fontSize: '16px',
+        color: 'black',
+        fontWeight: 'normal',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        lineHeight: 'normal',
+        letterSpacing: 'normal',
+        fontWeight: 500,
+    },
+    helperText: {
+        color: '#656565',
+        fontSize: '14px',
+        fontFamily: 'Roboto',
+        fontWeight: 'normal',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        lineHeight: 'normal',
+        letterSpacing: 'normal',
+    },
+    selectText: {
+        color: 'black',
+        fontSize: '16px',
+        fontFamily: 'Roboto',
+        fontWeight: 'normal',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        lineHeight: 'normal',
+        letterSpacing: 'normal',
+        overFlow: 'hidden',
+    }
+  });
+
+  import React, { Component } from 'react';
+  
+  class CustomComponents extends Component {
+      render() {
+          return (
+              
+          );
+      }
+  }
+  
+  export default CustomComponents;
+
+ const renderMUField = ({input, label, meta:{ touched, error }, type, name}) =>(
+    <FormControl 
+    classes={styles.root}
+    >
+        <InputLabel shrink>
+        {label}
+        </InputLabel>
+        {fieldType(type, name)}
+        <FormHelperText>
+            {error}
+        </FormHelperText>
+    </FormControl>
+)
+const fieldType = (type, name) => {
+    switch(type){
+        case 'TextField':
+            return TextFieldComponent(name)
+    }
+}
+
+
+const TextFieldComponent = (name) => {
+    return (
+        <TextField
+            name={name}
+            classes={{
+                underline: styles.cssUnderline,
+                focused: styles.cssFocused,
+              }}
+        />
+    )
+}
+
+

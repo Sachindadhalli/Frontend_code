@@ -1,0 +1,41 @@
+.Option-radio-checkbox-txt {
+  .option-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .option-item {
+  }
+  .delete-icon-style-pointer{
+    cursor: pointer;
+  }
+  .add-another-option {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #e73a9e;
+    margin-top: 17px;
+  }
+
+  .add-another-option:hover {
+    cursor: pointer;
+  }
+
+}
+@media screen and (min-device-width: 1024px) and(max-device-width: 1450px) {
+  .option-grid {
+    display: grid !important;
+    grid-template-columns: auto auto auto !important;
+  }
+}
+@media screen and (min-device-width: 760px) and(max-device-width: 1024px) {
+  .option-grid {
+    display: grid !important;
+    grid-template-columns: auto !important;
+  }
+}
+@media screen and (min-device-width: 320px) and(max-device-width: 760px) {
+  .option-grid {
+    display: grid !important;
+    grid-template-columns: auto !important;
+  }
+}

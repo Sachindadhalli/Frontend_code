@@ -1,0 +1,136 @@
+.contents {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Roboto;
+}
+
+.modal-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.register-modal-close {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.register-modal-contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-modal-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #656565;
+}
+
+.text-below-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-dialog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  .shenzyn-emp-type-dialog{
+    height:220px;
+  }
+  .shenzyn-dialog-box {
+      max-width: 560px;
+      background: #fff;
+      padding:20px;
+      display: flex;
+      flex-direction: column;
+      .header {
+          flex: 0 0 auto;
+          display: flex;
+          flex-direction: column;
+          font-family: Roboto;
+          .close-icon{
+              float: right;
+              height: 20px;
+              width: 20px;
+          }
+        .shenzyn-title-wrapper{
+          display: flex;
+          justify-content: center;
+        }
+          .title-wrapper{
+              float: left;
+              .title{
+                  color: #656565;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: normal;
+                  letter-spacing: normal;
+                  text-align: center;
+              }
+              .hint-title{
+                  color: #757575;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: normal;
+                  letter-spacing: normal;
+                  text-align: center;
+              }
+          }
+      }      
+      .footer {
+          display: flex;
+          justify-content: center;
+          flex: 0 0 auto;
+        margin-top: 0px;
+          flex-direction: column;
+          .action-btn-wrapper {
+              display: flex;
+              justify-content: space-between;
+              .item{
+                width: 48.3%;
+                align-items: flex-start;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+              .hint{
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #757575;
+              }
+          }
+      }
+  }
+}

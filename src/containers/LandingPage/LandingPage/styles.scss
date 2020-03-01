@@ -1,0 +1,9 @@
+.landing-page-main-container {
+    height: 100vh;
+    background-color: white;
+    .set-landing-page-scroller{
+      margin-top: 96px;
+      overflow: auto;
+      height: calc(100vh - 96px);
+    }
+}

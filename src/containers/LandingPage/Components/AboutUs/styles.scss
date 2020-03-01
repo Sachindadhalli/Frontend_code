@@ -1,0 +1,84 @@
+.about-us-main-cotainer {
+    padding: 62px 142px 0px 142px;
+
+    .about-us-heading-text {
+        font-family: Roboto ;
+        font-size: 25px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #353535;
+        padding-bottom: 53px;
+        text-align: center;
+    }
+    .about-us-content-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         .about-us-content-text1-item-quote {
+            opacity: 0.6;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            text-align: center;
+           font-weight: 500;
+           font-style: italic;
+            color: #161515;
+            padding-bottom: 32px;
+          }
+        .about-us-content-text1-item {
+            opacity: 0.6;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #757575;
+            padding-bottom: 32px;
+            line-height: 1.4;
+        }
+
+        .about-us-content-text2-item {
+            opacity: 0.6;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #161515;
+            padding-bottom: 32px;
+        }
+        .about-us-content-text3-item {
+            opacity: 0.6;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #757575;
+            padding-bottom: 62px;
+            line-height: 1.4;
+
+        }
+    }
+    .about-us-bottom-line {
+        opacity: 0.34;
+        border: solid 0.5px #979797;
+        width: 100%;
+        margin-bottom: 41px;
+    }
+}
